@@ -1,0 +1,13 @@
+{
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 16,
+        "separation": 8,
+        "salt": 1039095146,
+        "spread_type": "triangular"
+    },
+    "structures": [{
+        "structure": "mechorigins:warped_furnace",
+        "weight": 1
+    }]
+}

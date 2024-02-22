@@ -1,0 +1,1704 @@
+{
+    "type": "origins:multiple",
+    "1": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.movement_speed",
+                "operation": "addition",
+                "value": 0.01
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 1
+        }
+    },
+	"2": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.movement_speed",
+                "operation": "addition",
+                "value": 0.01
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 2
+        }
+    },
+	"3": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.movement_speed",
+                "operation": "addition",
+                "value": 0.01
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 3
+        }
+    },
+	"4": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.movement_speed",
+                "operation": "addition",
+                "value": 0.01
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 4
+        }
+    },
+	"5": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.movement_speed",
+                "operation": "addition",
+                "value": 0.01
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 5
+        }
+    },
+	"6": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.movement_speed",
+                "operation": "addition",
+                "value": 0.01
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 6
+        }
+    },
+	"7": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.movement_speed",
+                "operation": "addition",
+                "value": 0.01
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 7
+        }
+    },
+	"8": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.movement_speed",
+                "operation": "addition",
+                "value": 0.01
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 8
+        }
+    },
+	"9": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.movement_speed",
+                "operation": "addition",
+                "value": 0.01
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 9
+        }
+    },
+	"10": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.movement_speed",
+                "operation": "addition",
+                "value": 0.01
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 10
+        }
+    },
+    "11": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.movement_speed",
+                "operation": "addition",
+                "value": 0.01
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 11
+        }
+    },
+	"12": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.movement_speed",
+                "operation": "addition",
+                "value": 0.01
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 12
+        }
+    },
+	"13": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.movement_speed",
+                "operation": "addition",
+                "value": 0.01
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 13
+        }
+    },
+	"14": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.movement_speed",
+                "operation": "addition",
+                "value": 0.01
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 14
+        }
+    },
+	"15": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.movement_speed",
+                "operation": "addition",
+                "value": 0.01
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 15
+        }
+    },
+	"16": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.movement_speed",
+                "operation": "addition",
+                "value": 0.01
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 16
+        }
+    },
+	"17": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.movement_speed",
+                "operation": "addition",
+                "value": 0.01
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 17
+        }
+    },
+	"18": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.movement_speed",
+                "operation": "addition",
+                "value": 0.01
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 18
+        }
+    },
+	"19": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.movement_speed",
+                "operation": "addition",
+                "value": 0.01
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 19
+        }
+    },
+	"20": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.movement_speed",
+                "operation": "addition",
+                "value": 0.01
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 20
+        }
+    },
+    "21": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.movement_speed",
+                "operation": "addition",
+                "value": 0.01
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 21
+        }
+    },
+	"22": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.movement_speed",
+                "operation": "addition",
+                "value": 0.01
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 22
+        }
+    },
+	"23": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.movement_speed",
+                "operation": "addition",
+                "value": 0.01
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 23
+        }
+    },
+	"24": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.movement_speed",
+                "operation": "addition",
+                "value": 0.01
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 24
+        }
+    },
+	"25": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.movement_speed",
+                "operation": "addition",
+                "value": 0.01
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 25
+        }
+    },
+	"26": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.movement_speed",
+                "operation": "addition",
+                "value": 0.01
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 26
+        }
+    },
+	"27": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.movement_speed",
+                "operation": "addition",
+                "value": 0.01
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 27
+        }
+    },
+	"28": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.movement_speed",
+                "operation": "addition",
+                "value": 0.01
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 28
+        }
+    },
+	"29": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.movement_speed",
+                "operation": "addition",
+                "value": 0.01
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 29
+        }
+    },
+	"30": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.movement_speed",
+                "operation": "addition",
+                "value": 0.01
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 30
+        }
+    },
+    "31": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.movement_speed",
+                "operation": "addition",
+                "value": 0.01
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 31
+        }
+    },
+	"32": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.movement_speed",
+                "operation": "addition",
+                "value": 0.01
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 32
+        }
+    },
+	"33": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.movement_speed",
+                "operation": "addition",
+                "value": 0.01
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 33
+        }
+    },
+	"34": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.movement_speed",
+                "operation": "addition",
+                "value": 0.01
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 34
+        }
+    },
+	"35": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.movement_speed",
+                "operation": "addition",
+                "value": 0.01
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 35
+        }
+    },
+	"36": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.movement_speed",
+                "operation": "addition",
+                "value": 0.01
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 36
+        }
+    },
+	"37": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.movement_speed",
+                "operation": "addition",
+                "value": 0.01
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 37
+        }
+    },
+	"38": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.movement_speed",
+                "operation": "addition",
+                "value": 0.01
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 38
+        }
+    },
+	"39": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.movement_speed",
+                "operation": "addition",
+                "value": 0.01
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 39
+        }
+    },
+	"40": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.movement_speed",
+                "operation": "addition",
+                "value": 0.01
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 40
+        }
+    },
+    "41": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.movement_speed",
+                "operation": "addition",
+                "value": 0.01
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 41
+        }
+    },
+	"42": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.movement_speed",
+                "operation": "addition",
+                "value": 0.01
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 42
+        }
+    },
+	"43": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.movement_speed",
+                "operation": "addition",
+                "value": 0.01
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 43
+        }
+    },
+	"44": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.movement_speed",
+                "operation": "addition",
+                "value": 0.01
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 44
+        }
+    },
+	"45": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.movement_speed",
+                "operation": "addition",
+                "value": 0.01
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 45
+        }
+    },
+	"46": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.movement_speed",
+                "operation": "addition",
+                "value": 0.01
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 46
+        }
+    },
+	"47": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.movement_speed",
+                "operation": "addition",
+                "value": 0.01
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 47
+        }
+    },
+	"48": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.movement_speed",
+                "operation": "addition",
+                "value": 0.01
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 48
+        }
+    },
+	"49": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.movement_speed",
+                "operation": "addition",
+                "value": 0.01
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 49
+        }
+    },
+	"50": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.movement_speed",
+                "operation": "addition",
+                "value": 0.45
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 50
+        }
+    },
+    "51": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.attack_speed",
+                "operation": "addition",
+                "value": 0.1
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 1
+        }
+    },
+	"52": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.attack_speed",
+                "operation": "addition",
+                "value": 0.1
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 2
+        }
+    },
+	"53": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.attack_speed",
+                "operation": "addition",
+                "value": 0.1
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 3
+        }
+    },
+	"54": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.attack_speed",
+                "operation": "addition",
+                "value": 0.1
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 4
+        }
+    },
+	"55": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.attack_speed",
+                "operation": "addition",
+                "value": 0.1
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 5
+        }
+    },
+	"56": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.attack_speed",
+                "operation": "addition",
+                "value": 0.1
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 6
+        }
+    },
+	"57": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.attack_speed",
+                "operation": "addition",
+                "value": 0.1
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 7
+        }
+    },
+	"58": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.attack_speed",
+                "operation": "addition",
+                "value": 0.1
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 8
+        }
+    },
+	"59": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.attack_speed",
+                "operation": "addition",
+                "value": 0.1
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 9
+        }
+    },
+	"60": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.attack_speed",
+                "operation": "addition",
+                "value": 0.1
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 10
+        }
+    },
+    "61": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.attack_speed",
+                "operation": "addition",
+                "value": 0.1
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 11
+        }
+    },
+	"62": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.attack_speed",
+                "operation": "addition",
+                "value": 0.1
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 12
+        }
+    },
+	"63": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.attack_speed",
+                "operation": "addition",
+                "value": 0.1
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 13
+        }
+    },
+	"64": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.attack_speed",
+                "operation": "addition",
+                "value": 0.1
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 14
+        }
+    },
+	"65": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.attack_speed",
+                "operation": "addition",
+                "value": 0.1
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 15
+        }
+    },
+	"66": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.attack_speed",
+                "operation": "addition",
+                "value": 0.1
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 16
+        }
+    },
+	"67": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.attack_speed",
+                "operation": "addition",
+                "value": 0.1
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 17
+        }
+    },
+	"68": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.attack_speed",
+                "operation": "addition",
+                "value": 0.1
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 18
+        }
+    },
+	"69": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.attack_speed",
+                "operation": "addition",
+                "value": 0.1
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 19
+        }
+    },
+	"70": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.attack_speed",
+                "operation": "addition",
+                "value": 0.1
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 20
+        }
+    },
+    "71": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.attack_speed",
+                "operation": "addition",
+                "value": 0.1
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 21
+        }
+    },
+	"72": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.attack_speed",
+                "operation": "addition",
+                "value": 0.1
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 22
+        }
+    },
+	"73": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.attack_speed",
+                "operation": "addition",
+                "value": 0.1
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 23
+        }
+    },
+	"74": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.attack_speed",
+                "operation": "addition",
+                "value": 0.1
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 24
+        }
+    },
+	"75": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.attack_speed",
+                "operation": "addition",
+                "value": 0.1
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 25
+        }
+    },
+	"76": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.attack_speed",
+                "operation": "addition",
+                "value": 0.1
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 26
+        }
+    },
+	"77": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.attack_speed",
+                "operation": "addition",
+                "value": 0.1
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 27
+        }
+    },
+	"78": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.attack_speed",
+                "operation": "addition",
+                "value": 0.1
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 28
+        }
+    },
+	"79": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.attack_speed",
+                "operation": "addition",
+                "value": 0.1
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 29
+        }
+    },
+	"80": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.attack_speed",
+                "operation": "addition",
+                "value": 0.1
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 30
+        }
+    },
+    "81": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.attack_speed",
+                "operation": "addition",
+                "value": 0.1
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 31
+        }
+    },
+	"82": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.attack_speed",
+                "operation": "addition",
+                "value": 0.1
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 32
+        }
+    },
+	"83": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.attack_speed",
+                "operation": "addition",
+                "value": 0.1
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 33
+        }
+    },
+	"84": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.attack_speed",
+                "operation": "addition",
+                "value": 0.1
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 34
+        }
+    },
+	"85": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.attack_speed",
+                "operation": "addition",
+                "value": 0.1
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 35
+        }
+    },
+	"86": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.attack_speed",
+                "operation": "addition",
+                "value": 0.1
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 36
+        }
+    },
+	"87": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.attack_speed",
+                "operation": "addition",
+                "value": 0.1
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 37
+        }
+    },
+	"88": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.attack_speed",
+                "operation": "addition",
+                "value": 0.1
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 38
+        }
+    },
+	"89": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.attack_speed",
+                "operation": "addition",
+                "value": 0.1
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 39
+        }
+    },
+	"90": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.attack_speed",
+                "operation": "addition",
+                "value": 0.1
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 40
+        }
+    },
+    "91": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.attack_speed",
+                "operation": "addition",
+                "value": 0.1
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 41
+        }
+    },
+	"92": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.attack_speed",
+                "operation": "addition",
+                "value": 0.1
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 42
+        }
+    },
+	"93": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.attack_speed",
+                "operation": "addition",
+                "value": 0.1
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 43
+        }
+    },
+	"94": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.attack_speed",
+                "operation": "addition",
+                "value": 0.1
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 44
+        }
+    },
+	"95": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.attack_speed",
+                "operation": "addition",
+                "value": 0.1
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 45
+        }
+    },
+	"96": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.attack_speed",
+                "operation": "addition",
+                "value": 0.1
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 46
+        }
+    },
+	"97": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.attack_speed",
+                "operation": "addition",
+                "value": 0.1
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 47
+        }
+    },
+	"98": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.attack_speed",
+                "operation": "addition",
+                "value": 0.1
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 48
+        }
+    },
+	"99": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.attack_speed",
+                "operation": "addition",
+                "value": 0.1
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 49
+        }
+    },
+	"100": {
+        "type": "origins:conditioned_attribute",
+        "tick_rate": 5,
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.attack_speed",
+                "operation": "addition",
+                "value": 0.45
+            }
+        ],
+        "condition": {
+        	"type": "origins:resource",
+          	"resource": "mechorigins:leg_attachments_speedbar",
+          	"comparison": ">=",
+          	"compare_to": 50
+        }
+    },
+    "hidden": true
+}

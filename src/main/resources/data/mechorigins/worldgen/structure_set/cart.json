@@ -1,0 +1,13 @@
+{
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 32,
+        "separation": 16,
+        "salt": 1125398731,
+        "spread_type": "triangular"
+    },
+    "structures": [{
+        "structure": "mechorigins:cart",
+        "weight": 1
+    }]
+}

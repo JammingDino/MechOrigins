@@ -1,0 +1,13 @@
+{
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 32,
+        "separation": 16,
+        "salt": 1271302441,
+        "spread_type": "triangular"
+    },
+    "structures": [{
+        "structure": "mechorigins:armour_bunker",
+        "weight": 1
+    }]
+}

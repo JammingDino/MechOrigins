@@ -1,0 +1,31 @@
+{
+    "name": "Heavy",
+    "description": "You are in a big metal suit, expected to be a bit heavier than a normal person.\nYou are 10% slower than normal, and you jump hight can only just make it up 1 block. You also fall faster.",
+    "type": "origins:multiple",
+    "falling": {
+        "type": "origins:modify_velocity",
+        "modifier": {
+            "operation": "multiply_base_additive",
+            "value": 0.5
+        },
+        "axes": [
+            "y"
+        ]
+    },
+    "slow_speed": {
+        "type": "origins:attribute",
+        "modifier": {
+            "attribute": "movement_speed",
+            "operation": "addition",
+            "value": -0.15
+        },
+        "update_health": true
+    },
+    "jump": {
+        "type": "origins:modify_jump",
+        "modifier": {
+            "operation": "multiply_total_multiplicative",
+            "value": -0.2
+        }
+    }
+}

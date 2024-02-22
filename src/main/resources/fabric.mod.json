@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "mechorigins",
+  "version": "${version}",
+  "name": "Mech Origins",
+  "description": "Adds a single origin to the game, The Mech Origin. Explore, find parts, and upgrade your Mech.",
+  "authors": [
+	"JammingDino"
+  ],
+  "contact": {
+	"homepage": "https://www.curseforge.com/minecraft/mc-mods/extra-origins",
+	"sources": "https://github.com/JammingDino/MechOrigins"
+  },
+  "license": "Apache-2.0",
+  "icon": "assets/mechorigins/icon.png",
+  "environment": "*",
+  "entrypoints": {
+	"main": [
+      "jammingdino.mechorigins.common.MechOrigins"
+	],
+	"client": [
+      "jammingdino.mechorigins.client.MechOriginsClient"
+	]
+  },
+  "depends": {
+	"fabricloader": "*",
+	"minecraft": "~1.20.2",
+	"java": ">=17",
+	"fabric-api": "*",
+	"origins": "*"
+  }
+}

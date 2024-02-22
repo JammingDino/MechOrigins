@@ -1,0 +1,13 @@
+{
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 32,
+        "separation": 16,
+        "salt": 1102598793,
+        "spread_type": "triangular"
+    },
+    "structures": [{
+        "structure": "mechorigins:red_fountain",
+        "weight": 1
+    }]
+}

@@ -1,0 +1,5 @@
+{
+    "name": "Attachments",
+    "description": "You can find attachments, which will change the way the origin works, making it less or more powerful.",
+    "type": "origins:simple"
+}

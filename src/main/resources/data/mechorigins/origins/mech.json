@@ -1,0 +1,16 @@
+{
+    "name": "Mech",
+    "description": "The mech origin starts as a less powerful human, though over time and through collection of attachment peices, you will become more powerful.",
+    "powers": [
+        "mechorigins:heavy",
+        "mechorigins:attachments",
+        "mechorigins:leg_attachments",
+        "mechorigins:core_attachments",
+        "mechorigins:arm_attachments",
+        "mechorigins:additive_speed"
+    ],
+    "icon": {
+        "item": "minecraft:arms_up_pottery_sherd"
+    },
+    "impact": 0
+}
