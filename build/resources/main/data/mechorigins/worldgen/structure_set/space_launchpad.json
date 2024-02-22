@@ -1,0 +1,13 @@
+{
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 38,
+        "separation": 14,
+        "salt": 1137419370,
+        "spread_type": "triangular"
+    },
+    "structures": [{
+        "structure": "mechorigins:space_launchpad",
+        "weight": 1
+    }]
+}

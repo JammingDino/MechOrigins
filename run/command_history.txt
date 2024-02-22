@@ -1,0 +1,4 @@
+/locate structure mechorigins:fountain
+/tp @s 3168 ~ 3712
+/give @a bow{
+/give @a bow
