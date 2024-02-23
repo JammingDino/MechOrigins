@@ -541,35 +541,18 @@
 				{
 					"type": "minecraft:item",
 					"weight": 1,
-					"name": "minecraft:wooden_sword",
-					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{display:{Name:'{\"text\":\"Rage Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212021,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:rage_core}"
-						}
-					]
+					"name": "mechoirigins:lava_walk_legs"
 				},
 				{
 					"type": "minecraft:item",
 					"weight": 1,
-					"name": "minecraft:wooden_sword",
-					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{display:{Name:'{\"text\":\"Lava Walk Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212005,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:lava_walk_legs}"
-						}
-					]
+					"name": "mechorigins:rage_core"
 				},
 				{
 					"type": "minecraft:item",
 					"weight": 1,
-					"name": "minecraft:wooden_sword",
-					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{display:{Name:'{\"text\":\"Fire Arms\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212024,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:fire_arms}"
-						}
-					]
+					"name": "mechorigins:fire_arms"
+
 				}
 			]
 		}

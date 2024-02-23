@@ -25,8 +25,10 @@
             "type": "origins:equipped_item",
             "equipment_slot": "mainhand",
             "item_condition": {
-                "type": "origins:nbt",
-                "nbt": "{CustomModelData:212011}"
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "item": "mechorigins:base_core"
+                }
             }
         },
         "type": "origins:active_self",
@@ -54,8 +56,10 @@
             "type": "origins:equipped_item",
             "equipment_slot": "mainhand",
             "item_condition": {
-                "type": "origins:nbt",
-                "nbt": "{CustomModelData:212012}"
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "item": "mechorigins:mining_core"
+                }
             }
         },
         "type": "origins:active_self",
@@ -83,8 +87,10 @@
             "type": "origins:equipped_item",
             "equipment_slot": "mainhand",
             "item_condition": {
-                "type": "origins:nbt",
-                "nbt": "{CustomModelData:212013}"
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "item": "mechorigins:speed_core"
+                }
             }
         },
         "type": "origins:active_self",
@@ -112,8 +118,10 @@
             "type": "origins:equipped_item",
             "equipment_slot": "mainhand",
             "item_condition": {
-                "type": "origins:nbt",
-                "nbt": "{CustomModelData:212014}"
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "item": "mechorigins:launch_core"
+                }
             }
         },
         "type": "origins:active_self",
@@ -141,8 +149,10 @@
             "type": "origins:equipped_item",
             "equipment_slot": "mainhand",
             "item_condition": {
-                "type": "origins:nbt",
-                "nbt": "{CustomModelData:212015}"
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "item": "mechorigins:heavy_core"
+                }
             }
         },
         "type": "origins:active_self",
@@ -170,8 +180,10 @@
             "type": "origins:equipped_item",
             "equipment_slot": "mainhand",
             "item_condition": {
-                "type": "origins:nbt",
-                "nbt": "{CustomModelData:212016}"
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "item": "mechorigins:thrust_core"
+                }
             }
         },
         "type": "origins:active_self",
@@ -199,8 +211,10 @@
             "type": "origins:equipped_item",
             "equipment_slot": "mainhand",
             "item_condition": {
-                "type": "origins:nbt",
-                "nbt": "{CustomModelData:212017}"
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "item": "mechorigins:wing_core"
+                }
             }
         },
         "type": "origins:active_self",
@@ -228,8 +242,10 @@
             "type": "origins:equipped_item",
             "equipment_slot": "mainhand",
             "item_condition": {
-                "type": "origins:nbt",
-                "nbt": "{CustomModelData:212018}"
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "item": "mechorigins:xp_core"
+                }
             }
         },
         "type": "origins:active_self",
@@ -257,8 +273,10 @@
             "type": "origins:equipped_item",
             "equipment_slot": "mainhand",
             "item_condition": {
-                "type": "origins:nbt",
-                "nbt": "{CustomModelData:212019}"
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "item": "mechorigins:acceleration_core"
+                }
             }
         },
         "type": "origins:active_self",
@@ -286,8 +304,10 @@
             "type": "origins:equipped_item",
             "equipment_slot": "mainhand",
             "item_condition": {
-                "type": "origins:nbt",
-                "nbt": "{CustomModelData:212020}"
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "item": "mechorigins:haze_core"
+                }
             }
         },
         "type": "origins:active_self",
@@ -315,8 +335,10 @@
             "type": "origins:equipped_item",
             "equipment_slot": "mainhand",
             "item_condition": {
-                "type": "origins:nbt",
-                "nbt": "{CustomModelData:212021}"
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "item": "mechorigins:rage_core"
+                }
             }
         },
         "type": "origins:active_self",
@@ -381,7 +403,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Base Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212011,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:base_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:base_core"
                                                 }
                                             ]
                                         }
@@ -403,7 +425,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Base Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212011,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:base_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:base_core"
                                                 }
                                             ]
                                         }
@@ -425,7 +447,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Base Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212011,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:base_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:base_core"
                                                 }
                                             ]
                                         }
@@ -447,7 +469,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Base Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212011,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:base_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:base_core"
                                                 }
                                             ]
                                         }
@@ -469,7 +491,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Base Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212011,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:base_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:base_core"
                                                 }
                                             ]
                                         }
@@ -491,7 +513,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Base Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212011,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:base_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:base_core"
                                                 }
                                             ]
                                         }
@@ -513,7 +535,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Base Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212011,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:base_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:base_core"
                                                 }
                                             ]
                                         }
@@ -535,7 +557,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Base Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212011,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:base_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:base_core"
                                                 }
                                             ]
                                         }
@@ -557,7 +579,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Base Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212011,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:base_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:base_core"
                                                 }
                                             ]
                                         }
@@ -579,7 +601,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Base Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212011,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:base_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:base_core"
                                                 }
                                             ]
                                         }
@@ -614,7 +636,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Mining Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212012,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:mining_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:mining_core"
                                                 }
                                             ]
                                         }
@@ -636,7 +658,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Mining Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212012,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:mining_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:mining_core"
                                                 }
                                             ]
                                         }
@@ -658,7 +680,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Mining Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212012,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:mining_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:mining_core"
                                                 }
                                             ]
                                         }
@@ -680,7 +702,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Mining Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212012,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:mining_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:mining_core"
                                                 }
                                             ]
                                         }
@@ -702,7 +724,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Mining Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212012,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:mining_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:mining_core"
                                                 }
                                             ]
                                         }
@@ -724,7 +746,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Mining Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212012,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:mining_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:mining_core"
                                                 }
                                             ]
                                         }
@@ -746,7 +768,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Mining Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212012,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:mining_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:mining_core"
                                                 }
                                             ]
                                         }
@@ -768,7 +790,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Mining Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212012,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:mining_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:mining_core"
                                                 }
                                             ]
                                         }
@@ -790,7 +812,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Mining Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212012,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:mining_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:mining_core"
                                                 }
                                             ]
                                         }
@@ -812,7 +834,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Mining Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212012,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:mining_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:mining_core"
                                                 }
                                             ]
                                         }
@@ -847,7 +869,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Speed Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212013,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:speed_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:speed_core"
                                                 }
                                             ]
                                         }
@@ -869,7 +891,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Speed Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212013,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:speed_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:speed_core"
                                                 }
                                             ]
                                         }
@@ -891,7 +913,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Speed Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212013,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:speed_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:speed_core"
                                                 }
                                             ]
                                         }
@@ -913,7 +935,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Speed Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212013,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:speed_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:speed_core"
                                                 }
                                             ]
                                         }
@@ -935,7 +957,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Speed Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212013,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:speed_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:speed_core"
                                                 }
                                             ]
                                         }
@@ -957,7 +979,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Speed Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212013,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:speed_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:speed_core"
                                                 }
                                             ]
                                         }
@@ -979,7 +1001,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Speed Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212013,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:speed_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:speed_core"
                                                 }
                                             ]
                                         }
@@ -1001,7 +1023,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Speed Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212013,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:speed_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:speed_core"
                                                 }
                                             ]
                                         }
@@ -1023,7 +1045,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Speed Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212013,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:speed_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:speed_core"
                                                 }
                                             ]
                                         }
@@ -1045,7 +1067,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Speed Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212013,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:speed_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:speed_core"
                                                 }
                                             ]
                                         }
@@ -1080,7 +1102,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Launch Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212014,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:launch_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:launch_core"
                                                 }
                                             ]
                                         }
@@ -1102,7 +1124,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Launch Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212014,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:launch_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:launch_core"
                                                 }
                                             ]
                                         }
@@ -1124,7 +1146,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Launch Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212014,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:launch_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:launch_core"
                                                 }
                                             ]
                                         }
@@ -1146,7 +1168,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Launch Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212014,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:launch_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:launch_core"
                                                 }
                                             ]
                                         }
@@ -1168,7 +1190,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Launch Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212014,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:launch_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:launch_core"
                                                 }
                                             ]
                                         }
@@ -1190,7 +1212,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Launch Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212014,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:launch_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:launch_core"
                                                 }
                                             ]
                                         }
@@ -1212,7 +1234,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Launch Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212014,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:launch_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:launch_core"
                                                 }
                                             ]
                                         }
@@ -1234,7 +1256,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Launch Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212014,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:launch_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:launch_core"
                                                 }
                                             ]
                                         }
@@ -1256,7 +1278,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Launch Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212014,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:launch_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:launch_core"
                                                 }
                                             ]
                                         }
@@ -1278,7 +1300,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Launch Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212014,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:launch_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:launch_core"
                                                 }
                                             ]
                                         }
@@ -1313,7 +1335,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Heavy Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212015,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:heavy_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:heavy_core"
                                                 }
                                             ]
                                         }
@@ -1335,7 +1357,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Heavy Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212015,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:heavy_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:heavy_core"
                                                 }
                                             ]
                                         }
@@ -1357,7 +1379,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Heavy Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212015,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:heavy_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:heavy_core"
                                                 }
                                             ]
                                         }
@@ -1379,7 +1401,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Heavy Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212015,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:heavy_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:heavy_core"
                                                 }
                                             ]
                                         }
@@ -1401,7 +1423,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Heavy Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212015,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:heavy_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:heavy_core"
                                                 }
                                             ]
                                         }
@@ -1423,7 +1445,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Heavy Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212015,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:heavy_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:heavy_core"
                                                 }
                                             ]
                                         }
@@ -1445,7 +1467,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Heavy Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212015,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:heavy_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:heavy_core"
                                                 }
                                             ]
                                         }
@@ -1467,7 +1489,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Heavy Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212015,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:heavy_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:heavy_core"
                                                 }
                                             ]
                                         }
@@ -1489,7 +1511,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Heavy Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212015,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:heavy_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:heavy_core"
                                                 }
                                             ]
                                         }
@@ -1511,7 +1533,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Heavy Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212015,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:heavy_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:heavy_core"
                                                 }
                                             ]
                                         }
@@ -1546,7 +1568,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Thrust Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212016,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:thrust_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:thust_core"
                                                 }
                                             ]
                                         }
@@ -1568,7 +1590,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Thrust Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212016,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:thrust_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:thust_core"
                                                 }
                                             ]
                                         }
@@ -1590,7 +1612,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Thrust Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212016,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:thrust_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:thust_core"
                                                 }
                                             ]
                                         }
@@ -1612,7 +1634,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Thrust Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212016,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:thrust_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:thust_core"
                                                 }
                                             ]
                                         }
@@ -1634,7 +1656,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Thrust Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212016,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:thrust_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:thust_core"
                                                 }
                                             ]
                                         }
@@ -1656,7 +1678,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Thrust Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212016,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:thrust_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:thust_core"
                                                 }
                                             ]
                                         }
@@ -1678,7 +1700,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Thrust Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212016,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:thrust_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:thust_core"
                                                 }
                                             ]
                                         }
@@ -1700,7 +1722,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Thrust Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212016,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:thrust_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:thust_core"
                                                 }
                                             ]
                                         }
@@ -1722,7 +1744,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Thrust Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212016,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:thrust_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:thust_core"
                                                 }
                                             ]
                                         }
@@ -1744,7 +1766,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Thrust Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212016,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:thrust_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:thust_core"
                                                 }
                                             ]
                                         }
@@ -1779,7 +1801,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Wing Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212017,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:wing_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:wing_core"
                                                 }
                                             ]
                                         }
@@ -1801,7 +1823,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Wing Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212017,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:wing_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:wing_core"
                                                 }
                                             ]
                                         }
@@ -1823,7 +1845,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Wing Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212017,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:wing_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:wing_core"
                                                 }
                                             ]
                                         }
@@ -1845,7 +1867,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Wing Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212017,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:wing_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:wing_core"
                                                 }
                                             ]
                                         }
@@ -1867,7 +1889,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Wing Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212017,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:wing_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:wing_core"
                                                 }
                                             ]
                                         }
@@ -1889,7 +1911,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Wing Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212017,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:wing_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:wing_core"
                                                 }
                                             ]
                                         }
@@ -1911,7 +1933,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Wing Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212017,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:wing_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:wing_core"
                                                 }
                                             ]
                                         }
@@ -1933,7 +1955,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Wing Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212017,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:wing_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:wing_core"
                                                 }
                                             ]
                                         }
@@ -1955,7 +1977,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Wing Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212017,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:wing_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:wing_core"
                                                 }
                                             ]
                                         }
@@ -1977,7 +1999,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Wing Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212017,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:wing_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:wing_core"
                                                 }
                                             ]
                                         }
@@ -2012,7 +2034,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"XP Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212018,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:xp_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:xp_core"
                                                 }
                                             ]
                                         }
@@ -2034,7 +2056,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"XP Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212018,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:xp_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:xp_core"
                                                 }
                                             ]
                                         }
@@ -2056,7 +2078,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"XP Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212018,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:xp_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:xp_core"
                                                 }
                                             ]
                                         }
@@ -2078,7 +2100,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"XP Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212018,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:xp_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:xp_core"
                                                 }
                                             ]
                                         }
@@ -2100,7 +2122,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"XP Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212018,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:xp_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:xp_core"
                                                 }
                                             ]
                                         }
@@ -2122,7 +2144,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"XP Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212018,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:xp_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:xp_core"
                                                 }
                                             ]
                                         }
@@ -2144,7 +2166,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"XP Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212018,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:xp_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:xp_core"
                                                 }
                                             ]
                                         }
@@ -2166,7 +2188,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"XP Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212018,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:xp_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:xp_core"
                                                 }
                                             ]
                                         }
@@ -2188,7 +2210,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"XP Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212018,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:xp_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:xp_core"
                                                 }
                                             ]
                                         }
@@ -2210,7 +2232,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"XP Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212018,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:xp_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:xp_core"
                                                 }
                                             ]
                                         }
@@ -2245,7 +2267,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Accuracy Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212019,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:accuracy_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:accuracy_core"
                                                 }
                                             ]
                                         }
@@ -2267,7 +2289,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Accuracy Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212019,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:accuracy_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:accuracy_core"
                                                 }
                                             ]
                                         }
@@ -2289,7 +2311,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Accuracy Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212019,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:accuracy_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:accuracy_core"
                                                 }
                                             ]
                                         }
@@ -2311,7 +2333,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Accuracy Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212019,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:accuracy_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:accuracy_core"
                                                 }
                                             ]
                                         }
@@ -2333,7 +2355,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Accuracy Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212019,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:accuracy_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:accuracy_core"
                                                 }
                                             ]
                                         }
@@ -2355,7 +2377,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Accuracy Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212019,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:accuracy_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:accuracy_core"
                                                 }
                                             ]
                                         }
@@ -2377,7 +2399,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Accuracy Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212019,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:accuracy_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:accuracy_core"
                                                 }
                                             ]
                                         }
@@ -2399,7 +2421,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Accuracy Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212019,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:accuracy_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:accuracy_core"
                                                 }
                                             ]
                                         }
@@ -2421,7 +2443,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Accuracy Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212019,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:accuracy_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:accuracy_core"
                                                 }
                                             ]
                                         }
@@ -2443,7 +2465,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Accuracy Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212019,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:accuracy_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:accuracy_core"
                                                 }
                                             ]
                                         }
@@ -2478,7 +2500,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Haze Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212020,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:haze_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:haze_core"
                                                 }
                                             ]
                                         }
@@ -2500,7 +2522,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Haze Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212020,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:haze_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:haze_core"
                                                 }
                                             ]
                                         }
@@ -2522,7 +2544,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Haze Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212020,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:haze_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:haze_core"
                                                 }
                                             ]
                                         }
@@ -2544,7 +2566,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Haze Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212020,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:haze_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:haze_core"
                                                 }
                                             ]
                                         }
@@ -2566,7 +2588,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Haze Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212020,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:haze_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:haze_core"
                                                 }
                                             ]
                                         }
@@ -2588,7 +2610,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Haze Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212020,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:haze_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:haze_core"
                                                 }
                                             ]
                                         }
@@ -2610,7 +2632,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Haze Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212020,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:haze_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:haze_core"
                                                 }
                                             ]
                                         }
@@ -2632,7 +2654,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Haze Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212020,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:haze_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:haze_core"
                                                 }
                                             ]
                                         }
@@ -2654,7 +2676,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Haze Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212020,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:haze_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:haze_core"
                                                 }
                                             ]
                                         }
@@ -2676,7 +2698,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Haze Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212020,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:haze_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:haze_core"
                                                 }
                                             ]
                                         }
@@ -2711,7 +2733,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Rage Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212021,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:rage_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:rage_core"
                                                 }
                                             ]
                                         }
@@ -2733,7 +2755,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Rage Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212021,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:rage_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:rage_core"
                                                 }
                                             ]
                                         }
@@ -2755,7 +2777,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Rage Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212021,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:rage_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:rage_core"
                                                 }
                                             ]
                                         }
@@ -2777,7 +2799,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Rage Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212021,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:rage_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:rage_core"
                                                 }
                                             ]
                                         }
@@ -2799,7 +2821,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Rage Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212021,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:rage_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:rage_core"
                                                 }
                                             ]
                                         }
@@ -2821,7 +2843,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Rage Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212021,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:rage_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:rage_core"
                                                 }
                                             ]
                                         }
@@ -2843,7 +2865,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Rage Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212021,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:rage_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:rage_core"
                                                 }
                                             ]
                                         }
@@ -2865,7 +2887,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Rage Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212021,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:rage_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:rage_core"
                                                 }
                                             ]
                                         }
@@ -2887,7 +2909,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Rage Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212021,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:rage_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:rage_core"
                                                 }
                                             ]
                                         }
@@ -2909,7 +2931,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Rage Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212021,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:rage_core} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:rage_core"
                                                 }
                                             ]
                                         }
@@ -3223,7 +3245,7 @@
                         "y": 1,
                         "z": 0
                     },
-                    "command_at_hit": "function mechorigins:cores/firebreath",
+                    "command_at_hit": "function mech_origins:cores/firebreath",
                     "command_along_ray": "particle minecraft:smoke ~ ~ ~ 0 0 0 0.01 3 force"
                 }
             ]

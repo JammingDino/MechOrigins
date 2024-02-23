@@ -2,3 +2,13 @@
 /tp @s 3168 ~ 3712
 /give @a bow{
 /give @a bow
+/locate structure mechorigins:big_ship
+/tp @s 816 ~ -512
+/loot give @a loot mechorigins
+/loot give @a loot mechorigins:stuctures/ships
+/loot give @a loot mechorigins:stuctures/ship
+/loot give @a loot apoli:replaced_loot_table
+/summon minecraft:ender_dragon
+/loot give Player774 kill
+/loot give Player774 kill @e[type=minecraft:ender_dragon,limit=1]
+/kill @e[type=minecraft:ender_dragon]

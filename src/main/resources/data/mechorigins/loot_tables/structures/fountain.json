@@ -264,35 +264,18 @@
 				{
 					"type": "minecraft:item",
 					"weight": 1,
-					"name": "minecraft:wooden_sword",
-					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{display:{Name:'{\"text\":\"Agro Arms\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212027,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:agro_arms}"
-						}
-					]
+					"name": "mechoirigins:acceleration_legs"
 				},
 				{
 					"type": "minecraft:item",
 					"weight": 1,
-					"name": "minecraft:wooden_sword",
-					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{display:{Name:'{\"text\":\"Speed Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212013,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:speed_core}"
-						}
-					]
+					"name": "mechorigins:speed_core"
 				},
 				{
 					"type": "minecraft:item",
 					"weight": 1,
-					"name": "minecraft:wooden_sword",
-					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{display:{Name:'{\"text\":\"Acceleration Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212010,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:accleration_legs}"
-						}
-					]
+					"name": "mechorigins:agro_arms"
+
 				}
 			]
 		}

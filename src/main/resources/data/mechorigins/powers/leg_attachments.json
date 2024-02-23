@@ -25,8 +25,10 @@
             "type": "origins:equipped_item",
             "equipment_slot": "mainhand",
             "item_condition": {
-                "type": "origins:nbt",
-                "nbt": "{CustomModelData:212000}"
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "item": "mechorigins:base_legs"
+                }
             }
         },
         "type": "origins:active_self",
@@ -54,8 +56,10 @@
             "type": "origins:equipped_item",
             "equipment_slot": "mainhand",
             "item_condition": {
-                "type": "origins:nbt",
-                "nbt": "{CustomModelData:212001}"
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "item": "mechorigins:jump_legs"
+                }
             }
         },
         "type": "origins:active_self",
@@ -83,8 +87,10 @@
             "type": "origins:equipped_item",
             "equipment_slot": "mainhand",
             "item_condition": {
-                "type": "origins:nbt",
-                "nbt": "{CustomModelData:212002}"
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "item": "mechorigins:wheel_legs"
+                }
             }
         },
         "type": "origins:active_self",
@@ -112,8 +118,10 @@
             "type": "origins:equipped_item",
             "equipment_slot": "mainhand",
             "item_condition": {
-                "type": "origins:nbt",
-                "nbt": "{CustomModelData:212003}"
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "item": "mechorigins:jetpack_legs"
+                }
             }
         },
         "type": "origins:active_self",
@@ -141,8 +149,10 @@
             "type": "origins:equipped_item",
             "equipment_slot": "mainhand",
             "item_condition": {
-                "type": "origins:nbt",
-                "nbt": "{CustomModelData:212004}"
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "item": "mechorigins:water_walk_legs"
+                }
             }
         },
         "type": "origins:active_self",
@@ -170,8 +180,10 @@
             "type": "origins:equipped_item",
             "equipment_slot": "mainhand",
             "item_condition": {
-                "type": "origins:nbt",
-                "nbt": "{CustomModelData:212005}"
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "item": "mechorigins:lava_walk_legs"
+                }
             }
         },
         "type": "origins:active_self",
@@ -194,13 +206,15 @@
             "key": "key.use"
         }
     },
-    "armour_leg_equip": {
+    "armor_leg_equip": {
         "condition": {
             "type": "origins:equipped_item",
             "equipment_slot": "mainhand",
             "item_condition": {
-                "type": "origins:nbt",
-                "nbt": "{CustomModelData:212006}"
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "item": "mechorigins:armor_legs"
+                }
             }
         },
         "type": "origins:active_self",
@@ -228,8 +242,10 @@
             "type": "origins:equipped_item",
             "equipment_slot": "mainhand",
             "item_condition": {
-                "type": "origins:nbt",
-                "nbt": "{CustomModelData:212007}"
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "item": "mechorigins:athletic_legs"
+                }
             }
         },
         "type": "origins:active_self",
@@ -257,8 +273,10 @@
             "type": "origins:equipped_item",
             "equipment_slot": "mainhand",
             "item_condition": {
-                "type": "origins:nbt",
-                "nbt": "{CustomModelData:212008}"
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "item": "mechorigins:climbing_legs"
+                }
             }
         },
         "type": "origins:active_self",
@@ -286,8 +304,10 @@
             "type": "origins:equipped_item",
             "equipment_slot": "mainhand",
             "item_condition": {
-                "type": "origins:nbt",
-                "nbt": "{CustomModelData:212009}"
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "item": "mechorigins:flipper_legs"
+                }
             }
         },
         "type": "origins:active_self",
@@ -315,8 +335,10 @@
             "type": "origins:equipped_item",
             "equipment_slot": "mainhand",
             "item_condition": {
-                "type": "origins:nbt",
-                "nbt": "{CustomModelData:212010}"
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "item": "mechorigins:acceleration_legs"
+                }
             }
         },
         "type": "origins:active_self",
@@ -381,7 +403,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Base Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212000,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:base_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:base_legs"
                                                 }
                                             ]
                                         }
@@ -403,7 +425,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Base Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212000,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:base_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:base_legs"
                                                 }
                                             ]
                                         }
@@ -425,7 +447,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Base Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212000,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:base_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:base_legs"
                                                 }
                                             ]
                                         }
@@ -447,7 +469,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Base Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212000,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:base_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:base_legs"
                                                 }
                                             ]
                                         }
@@ -469,7 +491,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Base Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212000,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:base_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:base_legs"
                                                 }
                                             ]
                                         }
@@ -491,7 +513,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Base Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212000,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:base_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:base_legs"
                                                 }
                                             ]
                                         }
@@ -513,7 +535,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Base Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212000,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:base_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:base_legs"
                                                 }
                                             ]
                                         }
@@ -535,7 +557,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Base Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212000,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:base_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:base_legs"
                                                 }
                                             ]
                                         }
@@ -557,7 +579,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Base Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212000,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:base_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:base_legs"
                                                 }
                                             ]
                                         }
@@ -579,7 +601,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Base Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212000,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:base_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:base_legs"
                                                 }
                                             ]
                                         }
@@ -614,7 +636,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Jump Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212001,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:jump_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:jump_legs"
                                                 }
                                             ]
                                         }
@@ -636,7 +658,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Jump Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212001,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:jump_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:jump_legs"
                                                 }
                                             ]
                                         }
@@ -658,7 +680,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Jump Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212001,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:jump_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:jump_legs"
                                                 }
                                             ]
                                         }
@@ -680,7 +702,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Jump Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212001,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:jump_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:jump_legs"
                                                 }
                                             ]
                                         }
@@ -702,7 +724,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Jump Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212001,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:jump_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:jump_legs"
                                                 }
                                             ]
                                         }
@@ -724,7 +746,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Jump Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212001,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:jump_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:jump_legs"
                                                 }
                                             ]
                                         }
@@ -746,7 +768,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Jump Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212001,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:jump_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:jump_legs"
                                                 }
                                             ]
                                         }
@@ -768,7 +790,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Jump Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212001,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:jump_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:jump_legs"
                                                 }
                                             ]
                                         }
@@ -790,7 +812,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Jump Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212001,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:jump_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:jump_legs"
                                                 }
                                             ]
                                         }
@@ -812,7 +834,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Jump Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212001,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:jump_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:jump_legs"
                                                 }
                                             ]
                                         }
@@ -847,7 +869,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Wheel Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212002,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:wheel_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:wheel_legs"
                                                 }
                                             ]
                                         }
@@ -869,7 +891,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Wheel Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212002,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:wheel_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:wheel_legs"
                                                 }
                                             ]
                                         }
@@ -891,7 +913,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Wheel Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212002,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:wheel_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:wheel_legs"
                                                 }
                                             ]
                                         }
@@ -913,7 +935,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Wheel Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212002,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:wheel_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:wheel_legs"
                                                 }
                                             ]
                                         }
@@ -935,7 +957,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Wheel Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212002,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:wheel_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:wheel_legs"
                                                 }
                                             ]
                                         }
@@ -957,7 +979,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Wheel Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212002,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:wheel_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:wheel_legs"
                                                 }
                                             ]
                                         }
@@ -979,7 +1001,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Wheel Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212002,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:wheel_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:wheel_legs"
                                                 }
                                             ]
                                         }
@@ -1001,7 +1023,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Wheel Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212002,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:wheel_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:wheel_legs"
                                                 }
                                             ]
                                         }
@@ -1023,7 +1045,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Wheel Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212002,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:wheel_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:wheel_legs"
                                                 }
                                             ]
                                         }
@@ -1045,7 +1067,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Wheel Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212002,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:wheel_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:wheel_legs"
                                                 }
                                             ]
                                         }
@@ -1080,7 +1102,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Jetpack Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212003,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:jetpack_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:jetpack_legs"
                                                 }
                                             ]
                                         }
@@ -1102,7 +1124,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Jetpack Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212003,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:jetpack_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:jetpack_legs"
                                                 }
                                             ]
                                         }
@@ -1124,7 +1146,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Jetpack Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212003,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:jetpack_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:jetpack_legs"
                                                 }
                                             ]
                                         }
@@ -1146,7 +1168,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Jetpack Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212003,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:jetpack_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:jetpack_legs"
                                                 }
                                             ]
                                         }
@@ -1168,7 +1190,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Jetpack Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212003,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:jetpack_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:jetpack_legs"
                                                 }
                                             ]
                                         }
@@ -1190,7 +1212,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Jetpack Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212003,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:jetpack_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:jetpack_legs"
                                                 }
                                             ]
                                         }
@@ -1212,7 +1234,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Jetpack Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212003,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:jetpack_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:jetpack_legs"
                                                 }
                                             ]
                                         }
@@ -1234,7 +1256,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Jetpack Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212003,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:jetpack_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:jetpack_legs"
                                                 }
                                             ]
                                         }
@@ -1256,7 +1278,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Jetpack Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212003,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:jetpack_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:jetpack_legs"
                                                 }
                                             ]
                                         }
@@ -1278,7 +1300,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Jetpack Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212003,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:jetpack_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:jetpack_legs"
                                                 }
                                             ]
                                         }
@@ -1313,7 +1335,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Water Walk Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212004,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:water_walk_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:water_walk_legs"
                                                 }
                                             ]
                                         }
@@ -1335,7 +1357,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Water Walk Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212004,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:water_walk_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:water_walk_legs"
                                                 }
                                             ]
                                         }
@@ -1357,7 +1379,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Water Walk Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212004,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:water_walk_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:water_walk_legs"
                                                 }
                                             ]
                                         }
@@ -1379,7 +1401,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Water Walk Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212004,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:water_walk_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:water_walk_legs"
                                                 }
                                             ]
                                         }
@@ -1401,7 +1423,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Water Walk Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212004,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:water_walk_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:water_walk_legs"
                                                 }
                                             ]
                                         }
@@ -1423,7 +1445,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Water Walk Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212004,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:water_walk_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:water_walk_legs"
                                                 }
                                             ]
                                         }
@@ -1445,7 +1467,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Water Walk Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212004,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:water_walk_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:water_walk_legs"
                                                 }
                                             ]
                                         }
@@ -1467,7 +1489,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Water Walk Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212004,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:water_walk_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:water_walk_legs"
                                                 }
                                             ]
                                         }
@@ -1489,7 +1511,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Water Walk Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212004,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:water_walk_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:water_walk_legs"
                                                 }
                                             ]
                                         }
@@ -1511,7 +1533,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Water Walk Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212004,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:water_walk_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:water_walk_legs"
                                                 }
                                             ]
                                         }
@@ -1546,7 +1568,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Lava Walk Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212005,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:lava_walk_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:lava_walk_legs"
                                                 }
                                             ]
                                         }
@@ -1568,7 +1590,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Lava Walk Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212005,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:lava_walk_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:lava_walk_legs"
                                                 }
                                             ]
                                         }
@@ -1590,7 +1612,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Lava Walk Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212005,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:lava_walk_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:lava_walk_legs"
                                                 }
                                             ]
                                         }
@@ -1612,7 +1634,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Lava Walk Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212005,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:lava_walk_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:lava_walk_legs"
                                                 }
                                             ]
                                         }
@@ -1634,7 +1656,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Lava Walk Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212005,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:lava_walk_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:lava_walk_legs"
                                                 }
                                             ]
                                         }
@@ -1656,7 +1678,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Water Walk Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212004,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:water_walk_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:lava_walk_legs"
                                                 }
                                             ]
                                         }
@@ -1678,7 +1700,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Water Walk Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212004,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:water_walk_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:lava_walk_legs"
                                                 }
                                             ]
                                         }
@@ -1700,7 +1722,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Water Walk Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212004,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:water_walk_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:lava_walk_legs"
                                                 }
                                             ]
                                         }
@@ -1722,7 +1744,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Water Walk Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212004,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:water_walk_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:lava_walk_legs"
                                                 }
                                             ]
                                         }
@@ -1744,7 +1766,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Water Walk Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212004,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:water_walk_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:lava_walk_legs"
                                                 }
                                             ]
                                         }
@@ -1779,7 +1801,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Armor Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212006,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:armour_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:armor_legs"
                                                 }
                                             ]
                                         }
@@ -1801,7 +1823,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Armor Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212006,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:armour_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:armor_legs"
                                                 }
                                             ]
                                         }
@@ -1823,7 +1845,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Armor Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212006,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:armour_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:armor_legs"
                                                 }
                                             ]
                                         }
@@ -1845,7 +1867,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Armor Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212006,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:armour_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:armor_legs"
                                                 }
                                             ]
                                         }
@@ -1867,7 +1889,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Armor Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212006,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:armour_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:armor_legs"
                                                 }
                                             ]
                                         }
@@ -1889,7 +1911,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Armor Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212006,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:armour_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:armor_legs"
                                                 }
                                             ]
                                         }
@@ -1911,7 +1933,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Armor Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212006,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:armour_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:armor_legs"
                                                 }
                                             ]
                                         }
@@ -1933,7 +1955,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Armor Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212006,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:armour_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:armor_legs"
                                                 }
                                             ]
                                         }
@@ -1955,7 +1977,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Armor Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212006,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:armour_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:armor_legs"
                                                 }
                                             ]
                                         }
@@ -1977,7 +1999,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Armor Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212006,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:armour_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:armor_legs"
                                                 }
                                             ]
                                         }
@@ -2012,7 +2034,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Athletic Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212007,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:athletic_walk_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:athletic_legs"
                                                 }
                                             ]
                                         }
@@ -2034,7 +2056,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Athletic Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212007,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:athletic_walk_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:athletic_legs"
                                                 }
                                             ]
                                         }
@@ -2056,7 +2078,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Athletic Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212007,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:athletic_walk_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:athletic_legs"
                                                 }
                                             ]
                                         }
@@ -2078,7 +2100,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Athletic Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212007,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:athletic_walk_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:athletic_legs"
                                                 }
                                             ]
                                         }
@@ -2100,7 +2122,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Athletic Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212007,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:athletic_walk_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:athletic_legs"
                                                 }
                                             ]
                                         }
@@ -2122,7 +2144,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Athletic Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212007,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:athletic_walk_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:athletic_legs"
                                                 }
                                             ]
                                         }
@@ -2144,7 +2166,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Athletic Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212007,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:athletic_walk_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:athletic_legs"
                                                 }
                                             ]
                                         }
@@ -2166,7 +2188,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Athletic Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212007,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:athletic_walk_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:athletic_legs"
                                                 }
                                             ]
                                         }
@@ -2188,7 +2210,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Athletic Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212007,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:athletic_walk_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:athletic_legs"
                                                 }
                                             ]
                                         }
@@ -2210,7 +2232,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Athletic Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212007,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:athletic_walk_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:athletic_legs"
                                                 }
                                             ]
                                         }
@@ -2245,7 +2267,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Climbing Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212008,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:climbing_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:climbing_legs"
                                                 }
                                             ]
                                         }
@@ -2267,7 +2289,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Climbing Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212008,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:climbing_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:climbing_legs"
                                                 }
                                             ]
                                         }
@@ -2289,7 +2311,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Climbing Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212008,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:climbing_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:climbing_legs"
                                                 }
                                             ]
                                         }
@@ -2311,7 +2333,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Climbing Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212008,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:climbing_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:climbing_legs"
                                                 }
                                             ]
                                         }
@@ -2333,7 +2355,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Climbing Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212008,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:climbing_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:climbing_legs"
                                                 }
                                             ]
                                         }
@@ -2355,7 +2377,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Climbing Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212008,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:climbing_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:climbing_legs"
                                                 }
                                             ]
                                         }
@@ -2377,7 +2399,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Climbing Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212008,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:climbing_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:climbing_legs"
                                                 }
                                             ]
                                         }
@@ -2399,7 +2421,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Climbing Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212008,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:climbing_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:climbing_legs"
                                                 }
                                             ]
                                         }
@@ -2421,7 +2443,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Climbing Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212008,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:climbing_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:climbing_legs"
                                                 }
                                             ]
                                         }
@@ -2443,7 +2465,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Climbing Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212008,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:climbing_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:climbing_legs"
                                                 }
                                             ]
                                         }
@@ -2478,7 +2500,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Flipper Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212009,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:flipper_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:flipper_legs"
                                                 }
                                             ]
                                         }
@@ -2500,7 +2522,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Flipper Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212009,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:flipper_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:flipper_legs"
                                                 }
                                             ]
                                         }
@@ -2522,7 +2544,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Flipper Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212009,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:flipper_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:flipper_legs"
                                                 }
                                             ]
                                         }
@@ -2544,7 +2566,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Flipper Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212009,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:flipper_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:flipper_legs"
                                                 }
                                             ]
                                         }
@@ -2566,7 +2588,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Flipper Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212009,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:flipper_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:flipper_legs"
                                                 }
                                             ]
                                         }
@@ -2588,7 +2610,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Flipper Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212009,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:flipper_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:flipper_legs"
                                                 }
                                             ]
                                         }
@@ -2610,7 +2632,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Flipper Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212009,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:flipper_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:flipper_legs"
                                                 }
                                             ]
                                         }
@@ -2632,7 +2654,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Flipper Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212009,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:flipper_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:flipper_legs"
                                                 }
                                             ]
                                         }
@@ -2654,7 +2676,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Flipper Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212009,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:flipper_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:flipper_legs"
                                                 }
                                             ]
                                         }
@@ -2676,7 +2698,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Flipper Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212009,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:flipper_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:flipper_legs"
                                                 }
                                             ]
                                         }
@@ -2711,7 +2733,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Acceleration Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212010,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:accleration_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:acceleration_legs"
                                                 }
                                             ]
                                         }
@@ -2733,7 +2755,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Acceleration Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212010,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:accleration_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:acceleration_legs"
                                                 }
                                             ]
                                         }
@@ -2755,7 +2777,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Acceleration Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212010,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:accleration_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:acceleration_legs"
                                                 }
                                             ]
                                         }
@@ -2777,7 +2799,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Acceleration Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212010,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:accleration_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:acceleration_legs"
                                                 }
                                             ]
                                         }
@@ -2799,7 +2821,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Acceleration Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212010,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:accleration_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:acceleration_legs"
                                                 }
                                             ]
                                         }
@@ -2821,7 +2843,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Acceleration Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212010,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:accleration_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:acceleration_legs"
                                                 }
                                             ]
                                         }
@@ -2843,7 +2865,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Acceleration Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212010,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:accleration_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:acceleration_legs"
                                                 }
                                             ]
                                         }
@@ -2865,7 +2887,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Acceleration Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212010,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:accleration_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:acceleration_legs"
                                                 }
                                             ]
                                         }
@@ -2887,7 +2909,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Acceleration Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212010,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:accleration_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:acceleration_legs"
                                                 }
                                             ]
                                         }
@@ -2909,7 +2931,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with wooden_sword{display:{Name:'{\"text\":\"Acceleration Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212010,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:accleration_legs} 1"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:acceleration_legs"
                                                 }
                                             ]
                                         }
@@ -3409,6 +3431,10 @@
                     "resource": "*:*_jumping",
                     "comparison": "==",
                     "compare_to": 1
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:sneaking"
                 }
             ]
         },
@@ -3451,6 +3477,10 @@
                     "resource": "*:*_jumping",
                     "comparison": "==",
                     "compare_to": 1
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:sneaking"
                 }
             ]
         },

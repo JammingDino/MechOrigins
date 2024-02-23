@@ -129,35 +129,18 @@
 				{
 					"type": "minecraft:item",
 					"weight": 1,
-					"name": "minecraft:wooden_sword",
-					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{display:{Name:'{\"text\":\"Armor Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212006,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:armour_legs}"
-						}
-					]
+					"name": "mechoirigins:armor_legs"
 				},
 				{
 					"type": "minecraft:item",
 					"weight": 1,
-					"name": "minecraft:wooden_sword",
-					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{display:{Name:'{\"text\":\"Heavy Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212015,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:heavy_core} "
-						}
-					]
+					"name": "mechorigins:heavy_core"
 				},
 				{
 					"type": "minecraft:item",
 					"weight": 1,
-					"name": "minecraft:wooden_sword",
-					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{display:{Name:'{\"text\":\"Armour Arms\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212028,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:armour_arms}"
-						}
-					]
+					"name": "mechorigins:armor_arms"
+
 				}
 			]
 		}

@@ -312,33 +312,19 @@
 				},
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:wooden_sword",
-					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{display:{Name:'{\"text\":\"Webbed Arms\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212029,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:webbed_arms}"
-						}
-					]
+					"weight": 1,
+					"name": "mechoirigins:flipper_legs"
 				},
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:wooden_sword",
-					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{display:{Name:'{\"text\":\"Flipper Legs\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212009,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:flipper_legs}"
-						}
-					]
+					"weight": 1,
+					"name": "mechorigins:haze_core"
 				},
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:wooden_sword",
-					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{display:{Name:'{\"text\":\"Haze Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212020,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:haze_core}"
-						}
-					]
+					"weight": 1,
+					"name": "mechorigins:fin_arms"
+
 				}
 			]
 		}
