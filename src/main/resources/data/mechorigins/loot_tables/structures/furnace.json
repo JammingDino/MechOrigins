@@ -541,7 +541,7 @@
 				{
 					"type": "minecraft:item",
 					"weight": 1,
-					"name": "mechoirigins:lava_walk_legs"
+					"name": "mechorigins:lava_walk_legs"
 				},
 				{
 					"type": "minecraft:item",

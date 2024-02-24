@@ -329,33 +329,19 @@
 				},
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:wooden_sword",
-					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{display:{Name:'{\"text\":\"XP Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212018,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:xp_core}"
-						}
-					]
+					"weight": 1,
+					"name": "mechorigins:water_walk_legs"
 				},
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:wooden_sword",
-					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{display:{Name:'{\"text\":\"XP Core\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212018,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:xp_core}"
-						}
-					]
+					"weight": 1,
+					"name": "mechorigins:xp_core"
 				},
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:wooden_sword",
-					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{display:{Name:'{\"text\":\"Farmer Arms\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:212030,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-100,Operation:1,UUID:[I;1525098504,-1289469252,-1513074892,1788112246],Slot:\"mainhand\"}], tags:farmer_arms}"
-						}
-					]
+					"weight": 1,
+					"name": "mechorigins:farmer_arms"
+
 				}
 			]
 		}

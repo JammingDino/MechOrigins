@@ -12,3 +12,13 @@
 /loot give Player774 kill
 /loot give Player774 kill @e[type=minecraft:ender_dragon,limit=1]
 /kill @e[type=minecraft:ender_dragon]
+/loot give Player897 loot chests/cart
+/datapack list
+/loot give Player897 loot mechorigins:chests/cart
+/loot give @a loot mechorigins:chests/armour_bunker
+/locate structure mechorigins:red_fountain
+/tp @s 2720 ~ 3216
+/tp @s 2720 ~50 3216
+/loot give Player775 loot mechorigins:chests/fountain
+/clear
+/give @a minecraft:elytra
