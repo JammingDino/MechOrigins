@@ -22,3 +22,13 @@
 /loot give Player775 loot mechorigins:chests/fountain
 /clear
 /give @a minecraft:elytra
+/playsound mechorigins:jetpack_start
+/playsound mechorigins:jetpack_start player @s ~ ~ ~ 1 1
+/
+/playsound mechorigins:jetpack_start player @s ~ ~ ~ 1 1
+/give @a origins:orb_of_origin
+/playsound mechorigins:jetpack_loop
+/playsound mechorigins:jetpack_loop player @a ~ ~ ~ 1 1
+/reload
+/playsound mechorigins:jetpack_loop player @a ~ ~ ~ 1 1
+/give @a origins:orb_of_origin

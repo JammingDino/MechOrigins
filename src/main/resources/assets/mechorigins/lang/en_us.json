@@ -33,5 +33,9 @@
   "item.mechorigins.fire_arms" : "Fire Arms",
   "item.mechorigins.fireball_arms" : "Fireball Arms",
   "item.mechorigins.fling_arms" : "Fling Arms",
-  "item.mechorigins.base_arms" : "Base Arms"
+  "item.mechorigins.base_arms" : "Base Arms",
+
+  "sounds.mechorigins.jetpack_start": "Jetpack Starts",
+  "sounds.mechorigins.jetpack_loop": "Jetpack Starts",
+  "sounds.mechorigins.jetpack_end": "Jetpack Starts"
 }

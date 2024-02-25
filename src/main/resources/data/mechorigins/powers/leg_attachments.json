@@ -3842,5 +3842,46 @@
             "change": -1,
             "operation": "add"
         }
+    },
+    "old_jump_res": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 1,
+        "start_value": 0
+    },
+    "old_jump_set": {
+        "type": "origins:action_over_time",
+        "interval": 4,
+        "entity_action": {
+            "type": "origins:if_else_list",
+            "actions": [
+                {
+                    "condition": {
+                        "type": "origins:resource",
+                        "resource": "*:*_jumping",
+                        "comparison": "==",
+                        "compare_to": 1
+                    },
+                    "action": {
+                        "type": "origins:set_resource",
+                        "resource": "*:*_old_jump_res",
+                        "value": 1
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "origins:resource",
+                        "resource": "*:*_jumping",
+                        "comparison": "==",
+                        "compare_to": 0
+                    },
+                    "action": {
+                        "type": "origins:set_resource",
+                        "resource": "*:*_old_jump_res",
+                        "value": 0
+                    }
+                }
+            ]
+        }
     }
 }
