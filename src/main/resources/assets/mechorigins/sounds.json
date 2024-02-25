@@ -1,0 +1,20 @@
+{
+  "jetpack_start": {
+    "subtitle": "sounds.mechorigins.jetpack_start",
+    "sounds": [
+      "mechorigins:jetpack_start"
+    ]
+  },
+  "jetpack_loop": {
+    "subtitle": "sounds.mechorigins.jetpack_loop",
+    "sounds": [
+      "mechorigins:jetpack_loop"
+    ]
+  },
+  "jetpack_end": {
+    "subtitle": "sounds.mechorigins.jetpack_end",
+    "sounds": [
+      "mechorigins:jetpack_end"
+    ]
+  }
+}
