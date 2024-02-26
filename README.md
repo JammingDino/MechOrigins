@@ -145,7 +145,7 @@ With Mech Origins, players can experience a dynamic and customizable gameplay ex
     There is a warped furnace, which can spawn in either the warped forest or the nether wastes, and the crimson forest or the nether wastes. They can contain the fire arms, rage core or the lava walking legs.
     ![nether furnace](https://iili.io/JEQDiyN.png)
 - **Small Site**
-    Spawns in meadow, plains, sunflower_plains, bamboo_jungle, birch_forest, cherry_grove, dark_forest, flower_forest, forest, grove, jagged_peaks, jungle, old_growth_birch_forest, old_growth_pine_taiga, old_growth_spruce_taiga, savanna_leaf, savanna_plateau_leaf, sparse_jungle, taiga, windswept_forest, windswept_hills, windswept_savanna_leaf and wooded_badlands. It has a chance to contain the 
+    Spawns in meadow, plains, sunflower_plains, bamboo_jungle, birch_forest, cherry_grove, dark_forest, flower_forest, forest, grove, jagged_peaks, jungle, old_growth_birch_forest, old_growth_pine_taiga, old_growth_spruce_taiga, savanna_leaf, savanna_plateau_leaf, sparse_jungle, taiga, windswept_forest, windswept_hills, windswept_savanna_leaf and wooded_badlands. It has a chance to contain the athletic legs, mining core or the drill arms
     ![small site](https://iili.io/JEQDzhX.png)
 - **Ships**
     Spawns in ocean biomes and can contain the webbed arms, the flipper legs and the haze core
