@@ -1,8 +1,10 @@
 package jammingdino.mechorigins.common;
 
+import jammingdino.mechorigins.common.registry.ModPowers;
 import jammingdino.mechorigins.item.ModItems;
 import jammingdino.mechorigins.sound.ModSounds;
 import net.fabricmc.api.ModInitializer;
+import net.minecraft.util.Identifier;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -17,8 +19,12 @@ public class MechOrigins implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModSounds.registerSounds();
+		ModPowers.RegisterModPowers();
 
 	}
 
+	public static Identifier id(String value) {
+		return new Identifier(MOD_ID, value);
+	}
 
 }

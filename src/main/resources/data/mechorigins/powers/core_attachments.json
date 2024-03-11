@@ -361,6 +361,37 @@
             "key": "key.use"
         }
     },
+    "zombie_core_equip": {
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "item": "mechorigins:zombie_core"
+                }
+            }
+        },
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:set_resource",
+                    "resource": "*:*_changing_core",
+                    "value": 1
+                },
+                {
+                    "type": "origins:set_resource",
+                    "resource": "*:*_current_core",
+                    "value": 212022
+                }
+            ]
+        },
+        "key": {
+            "key": "key.use"
+        }
+    },
     "update": {
         "condition": {
             "type": "origins:resource",
@@ -605,6 +636,28 @@
                                                 }
                                             ]
                                         }
+                                    },
+                                    {
+                                        "condition": {
+                                            "type": "origins:resource",
+                                            "resource": "*:*_current_core",
+                                            "comparison": "==",
+                                            "compare_to": 212022
+                                        },
+                                        "action": {
+                                            "type": "origins:and",
+                                            "actions": [
+                                                {
+                                                    "type": "origins:set_resource",
+                                                    "resource": "*:*_old_core",
+                                                    "value": 212022
+                                                },
+                                                {
+                                                    "type": "origins:execute_command",
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:base_core"
+                                                }
+                                            ]
+                                        }
                                     }
                                 ]
                             }
@@ -831,6 +884,28 @@
                                                     "type": "origins:set_resource",
                                                     "resource": "*:*_old_core",
                                                     "value": 212021
+                                                },
+                                                {
+                                                    "type": "origins:execute_command",
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:mining_core"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "condition": {
+                                            "type": "origins:resource",
+                                            "resource": "*:*_current_core",
+                                            "comparison": "==",
+                                            "compare_to": 212022
+                                        },
+                                        "action": {
+                                            "type": "origins:and",
+                                            "actions": [
+                                                {
+                                                    "type": "origins:set_resource",
+                                                    "resource": "*:*_old_core",
+                                                    "value": 212022
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
@@ -1071,6 +1146,28 @@
                                                 }
                                             ]
                                         }
+                                    },
+                                    {
+                                        "condition": {
+                                            "type": "origins:resource",
+                                            "resource": "*:*_current_core",
+                                            "comparison": "==",
+                                            "compare_to": 212022
+                                        },
+                                        "action": {
+                                            "type": "origins:and",
+                                            "actions": [
+                                                {
+                                                    "type": "origins:set_resource",
+                                                    "resource": "*:*_old_core",
+                                                    "value": 212022
+                                                },
+                                                {
+                                                    "type": "origins:execute_command",
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:speed_core"
+                                                }
+                                            ]
+                                        }
                                     }
                                 ]
                             }
@@ -1297,6 +1394,28 @@
                                                     "type": "origins:set_resource",
                                                     "resource": "*:*_old_core",
                                                     "value": 212021
+                                                },
+                                                {
+                                                    "type": "origins:execute_command",
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:launch_core"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "condition": {
+                                            "type": "origins:resource",
+                                            "resource": "*:*_current_core",
+                                            "comparison": "==",
+                                            "compare_to": 212022
+                                        },
+                                        "action": {
+                                            "type": "origins:and",
+                                            "actions": [
+                                                {
+                                                    "type": "origins:set_resource",
+                                                    "resource": "*:*_old_core",
+                                                    "value": 212022
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
@@ -1537,6 +1656,28 @@
                                                 }
                                             ]
                                         }
+                                    },
+                                    {
+                                        "condition": {
+                                            "type": "origins:resource",
+                                            "resource": "*:*_current_core",
+                                            "comparison": "==",
+                                            "compare_to": 212022
+                                        },
+                                        "action": {
+                                            "type": "origins:and",
+                                            "actions": [
+                                                {
+                                                    "type": "origins:set_resource",
+                                                    "resource": "*:*_old_core",
+                                                    "value": 212022
+                                                },
+                                                {
+                                                    "type": "origins:execute_command",
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:heavy_core"
+                                                }
+                                            ]
+                                        }
                                     }
                                 ]
                             }
@@ -1770,6 +1911,28 @@
                                                 }
                                             ]
                                         }
+                                    },
+                                    {
+                                        "condition": {
+                                            "type": "origins:resource",
+                                            "resource": "*:*_current_core",
+                                            "comparison": "==",
+                                            "compare_to": 212022
+                                        },
+                                        "action": {
+                                            "type": "origins:and",
+                                            "actions": [
+                                                {
+                                                    "type": "origins:set_resource",
+                                                    "resource": "*:*_old_core",
+                                                    "value": 212022
+                                                },
+                                                {
+                                                    "type": "origins:execute_command",
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:thrust_core"
+                                                }
+                                            ]
+                                        }
                                     }
                                 ]
                             }
@@ -1996,6 +2159,28 @@
                                                     "type": "origins:set_resource",
                                                     "resource": "*:*_old_core",
                                                     "value": 212021
+                                                },
+                                                {
+                                                    "type": "origins:execute_command",
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:wing_core"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "condition": {
+                                            "type": "origins:resource",
+                                            "resource": "*:*_current_core",
+                                            "comparison": "==",
+                                            "compare_to": 212022
+                                        },
+                                        "action": {
+                                            "type": "origins:and",
+                                            "actions": [
+                                                {
+                                                    "type": "origins:set_resource",
+                                                    "resource": "*:*_old_core",
+                                                    "value": 212022
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
@@ -2236,6 +2421,28 @@
                                                 }
                                             ]
                                         }
+                                    },
+                                    {
+                                        "condition": {
+                                            "type": "origins:resource",
+                                            "resource": "*:*_current_core",
+                                            "comparison": "==",
+                                            "compare_to": 212022
+                                        },
+                                        "action": {
+                                            "type": "origins:and",
+                                            "actions": [
+                                                {
+                                                    "type": "origins:set_resource",
+                                                    "resource": "*:*_old_core",
+                                                    "value": 212022
+                                                },
+                                                {
+                                                    "type": "origins:execute_command",
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombie_core"
+                                                }
+                                            ]
+                                        }
                                     }
                                 ]
                             }
@@ -2462,6 +2669,28 @@
                                                     "type": "origins:set_resource",
                                                     "resource": "*:*_old_core",
                                                     "value": 212021
+                                                },
+                                                {
+                                                    "type": "origins:execute_command",
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:accuracy_core"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "condition": {
+                                            "type": "origins:resource",
+                                            "resource": "*:*_current_core",
+                                            "comparison": "==",
+                                            "compare_to": 212022
+                                        },
+                                        "action": {
+                                            "type": "origins:and",
+                                            "actions": [
+                                                {
+                                                    "type": "origins:set_resource",
+                                                    "resource": "*:*_old_core",
+                                                    "value": 212022
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
@@ -2702,6 +2931,28 @@
                                                 }
                                             ]
                                         }
+                                    },
+                                    {
+                                        "condition": {
+                                            "type": "origins:resource",
+                                            "resource": "*:*_current_core",
+                                            "comparison": "==",
+                                            "compare_to": 212022
+                                        },
+                                        "action": {
+                                            "type": "origins:and",
+                                            "actions": [
+                                                {
+                                                    "type": "origins:set_resource",
+                                                    "resource": "*:*_old_core",
+                                                    "value": 212022
+                                                },
+                                                {
+                                                    "type": "origins:execute_command",
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:haze_core"
+                                                }
+                                            ]
+                                        }
                                     }
                                 ]
                             }
@@ -2932,6 +3183,283 @@
                                                 {
                                                     "type": "origins:execute_command",
                                                     "command": "item replace entity @s weapon.mainhand with mechorigins:rage_core"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "condition": {
+                                            "type": "origins:resource",
+                                            "resource": "*:*_current_core",
+                                            "comparison": "==",
+                                            "compare_to": 212022
+                                        },
+                                        "action": {
+                                            "type": "origins:and",
+                                            "actions": [
+                                                {
+                                                    "type": "origins:set_resource",
+                                                    "resource": "*:*_old_core",
+                                                    "value": 212022
+                                                },
+                                                {
+                                                    "type": "origins:execute_command",
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:rage_core"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "condition": {
+                                "type": "origins:resource",
+                                "resource": "*:*_old_core",
+                                "comparison": "==",
+                                "compare_to": 212022
+                            },
+                            "action": {
+                                "type": "origins:if_else_list",
+                                "actions": [
+                                    {
+                                        "condition": {
+                                            "type": "origins:resource",
+                                            "resource": "*:*_current_core",
+                                            "comparison": "==",
+                                            "compare_to": 212011
+                                        },
+                                        "action": {
+                                            "type": "origins:and",
+                                            "actions": [
+                                                {
+                                                    "type": "origins:set_resource",
+                                                    "resource": "*:*_old_core",
+                                                    "value": 212011
+                                                },
+                                                {
+                                                    "type": "origins:execute_command",
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombie_core"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "condition": {
+                                            "type": "origins:resource",
+                                            "resource": "*:*_current_core",
+                                            "comparison": "==",
+                                            "compare_to": 212012
+                                        },
+                                        "action": {
+                                            "type": "origins:and",
+                                            "actions": [
+                                                {
+                                                    "type": "origins:set_resource",
+                                                    "resource": "*:*_old_core",
+                                                    "value": 212012
+                                                },
+                                                {
+                                                    "type": "origins:execute_command",
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombie_core"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "condition": {
+                                            "type": "origins:resource",
+                                            "resource": "*:*_current_core",
+                                            "comparison": "==",
+                                            "compare_to": 212013
+                                        },
+                                        "action": {
+                                            "type": "origins:and",
+                                            "actions": [
+                                                {
+                                                    "type": "origins:set_resource",
+                                                    "resource": "*:*_old_core",
+                                                    "value": 212013
+                                                },
+                                                {
+                                                    "type": "origins:execute_command",
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombie_core"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "condition": {
+                                            "type": "origins:resource",
+                                            "resource": "*:*_current_core",
+                                            "comparison": "==",
+                                            "compare_to": 212014
+                                        },
+                                        "action": {
+                                            "type": "origins:and",
+                                            "actions": [
+                                                {
+                                                    "type": "origins:set_resource",
+                                                    "resource": "*:*_old_core",
+                                                    "value": 212014
+                                                },
+                                                {
+                                                    "type": "origins:execute_command",
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombie_core"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "condition": {
+                                            "type": "origins:resource",
+                                            "resource": "*:*_current_core",
+                                            "comparison": "==",
+                                            "compare_to": 212015
+                                        },
+                                        "action": {
+                                            "type": "origins:and",
+                                            "actions": [
+                                                {
+                                                    "type": "origins:set_resource",
+                                                    "resource": "*:*_old_core",
+                                                    "value": 212015
+                                                },
+                                                {
+                                                    "type": "origins:execute_command",
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombie_core"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "condition": {
+                                            "type": "origins:resource",
+                                            "resource": "*:*_current_core",
+                                            "comparison": "==",
+                                            "compare_to": 212016
+                                        },
+                                        "action": {
+                                            "type": "origins:and",
+                                            "actions": [
+                                                {
+                                                    "type": "origins:set_resource",
+                                                    "resource": "*:*_old_core",
+                                                    "value": 212016
+                                                },
+                                                {
+                                                    "type": "origins:execute_command",
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombie_core"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "condition": {
+                                            "type": "origins:resource",
+                                            "resource": "*:*_current_core",
+                                            "comparison": "==",
+                                            "compare_to": 212017
+                                        },
+                                        "action": {
+                                            "type": "origins:and",
+                                            "actions": [
+                                                {
+                                                    "type": "origins:set_resource",
+                                                    "resource": "*:*_old_core",
+                                                    "value": 212017
+                                                },
+                                                {
+                                                    "type": "origins:execute_command",
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombie_core"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "condition": {
+                                            "type": "origins:resource",
+                                            "resource": "*:*_current_core",
+                                            "comparison": "==",
+                                            "compare_to": 212019
+                                        },
+                                        "action": {
+                                            "type": "origins:and",
+                                            "actions": [
+                                                {
+                                                    "type": "origins:set_resource",
+                                                    "resource": "*:*_old_core",
+                                                    "value": 212019
+                                                },
+                                                {
+                                                    "type": "origins:execute_command",
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombie_core"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "condition": {
+                                            "type": "origins:resource",
+                                            "resource": "*:*_current_core",
+                                            "comparison": "==",
+                                            "compare_to": 212020
+                                        },
+                                        "action": {
+                                            "type": "origins:and",
+                                            "actions": [
+                                                {
+                                                    "type": "origins:set_resource",
+                                                    "resource": "*:*_old_core",
+                                                    "value": 212020
+                                                },
+                                                {
+                                                    "type": "origins:execute_command",
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombie_core"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "condition": {
+                                            "type": "origins:resource",
+                                            "resource": "*:*_current_core",
+                                            "comparison": "==",
+                                            "compare_to": 212018
+                                        },
+                                        "action": {
+                                            "type": "origins:and",
+                                            "actions": [
+                                                {
+                                                    "type": "origins:set_resource",
+                                                    "resource": "*:*_old_core",
+                                                    "value": 212018
+                                                },
+                                                {
+                                                    "type": "origins:execute_command",
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombie_core"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "condition": {
+                                            "type": "origins:resource",
+                                            "resource": "*:*_current_core",
+                                            "comparison": "==",
+                                            "compare_to": 212021
+                                        },
+                                        "action": {
+                                            "type": "origins:and",
+                                            "actions": [
+                                                {
+                                                    "type": "origins:set_resource",
+                                                    "resource": "*:*_old_core",
+                                                    "value": 212021
+                                                },
+                                                {
+                                                    "type": "origins:execute_command",
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombie_core"
                                                 }
                                             ]
                                         }
@@ -3400,5 +3928,11 @@
             "should_render": true
         },
         "key": "key.origins.primary_active"
+    },
+    "zombie_core_effect": {
+        "type": "mechorigins:mob_neutrality",
+        "entity_types": [
+            "minecraft:piglin"
+        ]
     }
 }

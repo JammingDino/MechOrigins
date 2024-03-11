@@ -35,6 +35,7 @@ public class ModItems {
     public static Item WING_CORE = registerItem("wing_core", new Item(new FabricItemSettings()));
     public static Item XP_CORE = registerItem("xp_core", new Item(new FabricItemSettings()));
     public static Item BASE_CORE = registerItem("base_core", new Item(new FabricItemSettings()));
+    public static Item ZOMBIE_CORE = registerItem("zombie_core", new Item(new FabricItemSettings()));
     //All Arm Items
     public static Item AGRO_ARMS = registerItem("agro_arms", new Item(new FabricItemSettings()));
     public static Item AIRSTRIKE_ARMS = registerItem("airstrike_arms", new Item(new FabricItemSettings()));
@@ -73,6 +74,7 @@ public class ModItems {
         entries.add(WING_CORE);
         entries.add(XP_CORE);
         entries.add(BASE_CORE);
+        entries.add(ZOMBIE_CORE);
 
         entries.add(AGRO_ARMS);
         entries.add(AIRSTRIKE_ARMS);

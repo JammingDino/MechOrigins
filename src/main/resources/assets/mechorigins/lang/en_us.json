@@ -2,7 +2,7 @@
   "item.mechorigins.jump_legs" : "Jump Legs",
   "item.mechorigins.wheel_legs" : "Wheel Legs",
   "item.mechorigins.acceleration_legs" : "Acceleration Legs",
-  "item.mechorigins.armour_legs" : "Armor Legs",
+  "item.mechorigins.armor_legs" : "Armor Legs",
   "item.mechorigins.athletic_legs" : "Athletic Legs",
   "item.mechorigins.climbing_legs" : "Climbing Legs",
   "item.mechorigins.flipper_legs" : "Flipper Legs",
@@ -22,6 +22,7 @@
   "item.mechorigins.wing_core" : "Wing Core",
   "item.mechorigins.xp_core" : "XP Core",
   "item.mechorigins.base_core" : "Base Core",
+  "item.mechorigins.zombie_core" : "Zombie Core",
 
   "item.mechorigins.agro_arms" : "Agro Arms",
   "item.mechorigins.airstrike_arms" : "Airstrike Arms",
