@@ -11,7 +11,7 @@ Mech Origins is a Minecraft mod that introduces a unique gameplay mechanic where
   - These initial parts have no direct effect on the player's abilities.
 
 - **Basic Attributes:**
-  - Regardless of the equipped parts, players experience a slightly lower jump height (only just a full block), slightly reduced movement speed, and faster falling speed (increased Y velocity, so you will just faster as well).
+  - Regardless of the equipped parts, players experience a slightly lower jump height (only just a full block), slightly reduced movement speed, and faster falling speed (increased Y velocity, so you will fall faster as well).
   - The base attributes serve as a foundation for the modifications brought about by different equipment.
 
 ## Equipment Acquisition
@@ -40,18 +40,6 @@ Mech Origins is a Minecraft mod that introduces a unique gameplay mechanic where
   - The modular design facilitates the addition of new items, ensuring the mod can evolve with future updates.
 
 With Mech Origins, players can experience a dynamic and customizable gameplay experience, where their choice of equipment significantly influences their abilities in the Minecraft world.
-
-## Useful Commands
-
-- **/function mechorigins:more_information**
-    - Tells each player to "Clicker here for more information about the Mech Origin" Which will bring them to this github page.
-
-- **/function mechorigins:give_all**
-    - Gives whoever uses the command a chest containing every current item added by Mech Origins.
-
-- **/function mechorigins:give_giving_sign**
-    - Gives Whoever uses the command a sign that reads "All Items" When the sign is right clicked, it will give that player the chest containing every current item added by Mech Origins.
-
 
 ## Current Items
 
