@@ -3930,9 +3930,15 @@
         "key": "key.origins.primary_active"
     },
     "zombie_core_effect": {
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_current_core",
+            "comparison": "==",
+            "compare_to": 212022
+        },
         "type": "mechorigins:mob_neutrality",
         "entity_types": [
-            "minecraft:piglin"
+            "minecraft:zombie"
         ]
     }
 }
