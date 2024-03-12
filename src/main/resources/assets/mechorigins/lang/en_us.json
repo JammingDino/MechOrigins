@@ -23,6 +23,9 @@
   "item.mechorigins.xp_core" : "XP Core",
   "item.mechorigins.base_core" : "Base Core",
   "item.mechorigins.zombie_core" : "Zombie Core",
+  "item.mechorigins.skeleton_core" : "Skeleton Core",
+  "item.mechorigins.spider_core" : "Spider Core",
+  "item.mechorigins.creeper_core" : "Creeper Core",
 
   "item.mechorigins.agro_arms" : "Agro Arms",
   "item.mechorigins.airstrike_arms" : "Airstrike Arms",
