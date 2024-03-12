@@ -20,6 +20,7 @@ public class MobNeutralityPower extends Power {
     }
 
     public boolean shouldBeNeutral(EntityType<?> entityType) {
+
         if (inverted) {
             return !entityTypes.contains(entityType);
         }

@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "jammingdino.mechorigins.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "ActiveTargetGoalMixin",
+    "MobEntityMixin",
+    "PiglinBrainMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

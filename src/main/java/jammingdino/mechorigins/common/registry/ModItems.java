@@ -1,4 +1,4 @@
-package jammingdino.mechorigins.item;
+package jammingdino.mechorigins.common.registry;
 
 import jammingdino.mechorigins.common.MechOrigins;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;

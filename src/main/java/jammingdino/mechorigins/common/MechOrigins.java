@@ -1,8 +1,8 @@
 package jammingdino.mechorigins.common;
 
 import jammingdino.mechorigins.common.registry.ModPowers;
-import jammingdino.mechorigins.item.ModItems;
-import jammingdino.mechorigins.sound.ModSounds;
+import jammingdino.mechorigins.common.registry.ModItems;
+import jammingdino.mechorigins.common.registry.ModSounds;
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.util.Identifier;
 import org.slf4j.Logger;

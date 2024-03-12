@@ -1,0 +1,6 @@
+{
+  "type": "mechorigins:mob_neutrality",
+  "entity_types": [
+    "minecraft:zombie"
+  ]
+}
