@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "mechorigins:item/ravaging_mob_core"
+    }
+}

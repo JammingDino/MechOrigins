@@ -337,7 +337,7 @@
             "item_condition": {
                 "type": "origins:ingredient",
                 "ingredient": {
-                    "item": "airstrike_arms"
+                    "item": "mechorigins:airstrike_arms"
                 }
             }
         },
