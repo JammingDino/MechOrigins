@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mechorigins:zombie_core"
+    },
+    {
+      "item": "mechorigins:spider_core"
+    },
+    {
+      "item": "mechorigins:skeleton_core"
+    },
+    {
+      "item": "mechorigins:creeper_core"
+    }
+  ],
+  "result": {
+    "item": "mechorigins:common_mob_core"
+  }
+}
