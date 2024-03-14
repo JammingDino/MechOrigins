@@ -485,14 +485,14 @@
             "key": "key.use"
         }
     },
-    "zombiefied_piglin_core_equip": {
+    "zombified_piglin_core_equip": {
         "condition": {
             "type": "origins:equipped_item",
             "equipment_slot": "mainhand",
             "item_condition": {
                 "type": "origins:ingredient",
                 "ingredient": {
-                    "item": "mechorigins:zombiefied_piglin_core"
+                    "item": "mechorigins:zombified_piglin_core"
                 }
             }
         },
@@ -17255,7 +17255,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombiefied_piglin_core"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombified_piglin_core"
                                                 }
                                             ]
                                         }
@@ -17277,7 +17277,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombiefied_piglin_core"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombified_piglin_core"
                                                 }
                                             ]
                                         }
@@ -17299,7 +17299,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombiefied_piglin_core"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombified_piglin_core"
                                                 }
                                             ]
                                         }
@@ -17321,7 +17321,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombiefied_piglin_core"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombified_piglin_core"
                                                 }
                                             ]
                                         }
@@ -17343,7 +17343,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombiefied_piglin_core"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombified_piglin_core"
                                                 }
                                             ]
                                         }
@@ -17365,7 +17365,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombiefied_piglin_core"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombified_piglin_core"
                                                 }
                                             ]
                                         }
@@ -17387,7 +17387,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombiefied_piglin_core"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombified_piglin_core"
                                                 }
                                             ]
                                         }
@@ -17409,7 +17409,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombiefied_piglin_core"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombified_piglin_core"
                                                 }
                                             ]
                                         }
@@ -17431,7 +17431,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombiefied_piglin_core"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombified_piglin_core"
                                                 }
                                             ]
                                         }
@@ -17453,7 +17453,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombiefied_piglin_core"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombified_piglin_core"
                                                 }
                                             ]
                                         }
@@ -17475,7 +17475,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombiefied_piglin_core"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombified_piglin_core"
                                                 }
                                             ]
                                         }
@@ -17497,7 +17497,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombiefied_piglin_core"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombified_piglin_core"
                                                 }
                                             ]
                                         }
@@ -17519,7 +17519,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombiefied_piglin_core"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombified_piglin_core"
                                                 }
                                             ]
                                         }
@@ -17541,7 +17541,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombiefied_piglin_core"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombified_piglin_core"
                                                 }
                                             ]
                                         }
@@ -17563,7 +17563,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombiefied_piglin_core"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombified_piglin_core"
                                                 }
                                             ]
                                         }
@@ -17585,7 +17585,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombiefied_piglin_core"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombified_piglin_core"
                                                 }
                                             ]
                                         }
@@ -17607,7 +17607,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombiefied_piglin_core"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombified_piglin_core"
                                                 }
                                             ]
                                         }
@@ -17629,7 +17629,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombiefied_piglin_core"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombified_piglin_core"
                                                 }
                                             ]
                                         }
@@ -17651,7 +17651,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombiefied_piglin_core"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombified_piglin_core"
                                                 }
                                             ]
                                         }
@@ -17673,7 +17673,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombiefied_piglin_core"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombified_piglin_core"
                                                 }
                                             ]
                                         }
@@ -17695,7 +17695,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombiefied_piglin_core"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombified_piglin_core"
                                                 }
                                             ]
                                         }
@@ -17717,7 +17717,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombiefied_piglin_core"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombified_piglin_core"
                                                 }
                                             ]
                                         }
@@ -17739,7 +17739,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombiefied_piglin_core"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombified_piglin_core"
                                                 }
                                             ]
                                         }
@@ -17761,7 +17761,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombiefied_piglin_core"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombified_piglin_core"
                                                 }
                                             ]
                                         }
@@ -17783,7 +17783,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombiefied_piglin_core"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombified_piglin_core"
                                                 }
                                             ]
                                         }
@@ -17805,7 +17805,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombiefied_piglin_core"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombified_piglin_core"
                                                 }
                                             ]
                                         }
@@ -17827,7 +17827,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombiefied_piglin_core"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombified_piglin_core"
                                                 }
                                             ]
                                         }
@@ -17849,7 +17849,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombiefied_piglin_core"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombified_piglin_core"
                                                 }
                                             ]
                                         }
@@ -17871,7 +17871,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombiefied_piglin_core"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombified_piglin_core"
                                                 }
                                             ]
                                         }
@@ -17893,7 +17893,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombiefied_piglin_core"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombified_piglin_core"
                                                 }
                                             ]
                                         }
@@ -17915,7 +17915,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombiefied_piglin_core"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombified_piglin_core"
                                                 }
                                             ]
                                         }
@@ -17937,7 +17937,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombiefied_piglin_core"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombified_piglin_core"
                                                 }
                                             ]
                                         }
@@ -17959,7 +17959,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombiefied_piglin_core"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombified_piglin_core"
                                                 }
                                             ]
                                         }
@@ -17981,7 +17981,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombiefied_piglin_core"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombified_piglin_core"
                                                 }
                                             ]
                                         }
@@ -18003,7 +18003,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombiefied_piglin_core"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombified_piglin_core"
                                                 }
                                             ]
                                         }
@@ -18025,7 +18025,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombiefied_piglin_core"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombified_piglin_core"
                                                 }
                                             ]
                                         }
@@ -18047,7 +18047,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombiefied_piglin_core"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombified_piglin_core"
                                                 }
                                             ]
                                         }
@@ -18069,7 +18069,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombiefied_piglin_core"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombified_piglin_core"
                                                 }
                                             ]
                                         }
@@ -18091,7 +18091,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombiefied_piglin_core"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombified_piglin_core"
                                                 }
                                             ]
                                         }
@@ -18113,7 +18113,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombiefied_piglin_core"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombified_piglin_core"
                                                 }
                                             ]
                                         }
@@ -18135,7 +18135,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombiefied_piglin_core"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombified_piglin_core"
                                                 }
                                             ]
                                         }
@@ -18157,7 +18157,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombiefied_piglin_core"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombified_piglin_core"
                                                 }
                                             ]
                                         }
@@ -18179,7 +18179,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombiefied_piglin_core"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombified_piglin_core"
                                                 }
                                             ]
                                         }
@@ -18201,7 +18201,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombiefied_piglin_core"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombified_piglin_core"
                                                 }
                                             ]
                                         }
@@ -18223,7 +18223,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombiefied_piglin_core"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombified_piglin_core"
                                                 }
                                             ]
                                         }
@@ -18245,7 +18245,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombiefied_piglin_core"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombified_piglin_core"
                                                 }
                                             ]
                                         }
@@ -18267,7 +18267,7 @@
                                                 },
                                                 {
                                                     "type": "origins:execute_command",
-                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombiefied_piglin_core"
+                                                    "command": "item replace entity @s weapon.mainhand with mechorigins:zombified_piglin_core"
                                                 }
                                             ]
                                         }
@@ -52284,6 +52284,114 @@
             "minecraft:creeper"
         ]
     },
+    "zombified_piglin_core_effect": {
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_current_core",
+            "comparison": "==",
+            "compare_to": 212026
+        },
+        "type": "mechorigins:mob_neutrality",
+        "entity_types": [
+            "minecraft:zombified_piglin"
+        ]
+    },
+    "wither_skeleton_core_effect": {
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_current_core",
+            "comparison": "==",
+            "compare_to": 212027
+        },
+        "type": "mechorigins:mob_neutrality",
+        "entity_types": [
+            "minecraft:wither_skeleton"
+        ]
+    },
+    "magma_cube_core_effect": {
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_current_core",
+            "comparison": "==",
+            "compare_to": 212028
+        },
+        "type": "mechorigins:mob_neutrality",
+        "entity_types": [
+            "minecraft:magma_cube"
+        ]
+    },
+    "hoglin_core_effect": {
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_current_core",
+            "comparison": "==",
+            "compare_to": 212029
+        },
+        "type": "mechorigins:mob_neutrality",
+        "entity_types": [
+            "minecraft:hoglin"
+        ]
+    },
+    "piglin_core_effect": {
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_current_core",
+            "comparison": "==",
+            "compare_to": 212030
+        },
+        "type": "mechorigins:mob_neutrality",
+        "entity_types": [
+            "minecraft:piglin"
+        ]
+    },
+    "zoglin_core_effect": {
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_current_core",
+            "comparison": "==",
+            "compare_to": 212031
+        },
+        "type": "mechorigins:mob_neutrality",
+        "entity_types": [
+            "minecraft:zoglin"
+        ]
+    },
+    "piglin_brute_core_effect": {
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_current_core",
+            "comparison": "==",
+            "compare_to": 212032
+        },
+        "type": "mechorigins:mob_neutrality",
+        "entity_types": [
+            "minecraft:piglin_brute"
+        ]
+    },
+    "ghast_core_effect": {
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_current_core",
+            "comparison": "==",
+            "compare_to": 212033
+        },
+        "type": "mechorigins:mob_neutrality",
+        "entity_types": [
+            "minecraft:ghast"
+        ]
+    },
+    "blaze_core_effect": {
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_current_core",
+            "comparison": "==",
+            "compare_to": 212034
+        },
+        "type": "mechorigins:mob_neutrality",
+        "entity_types": [
+            "minecraft:blaze"
+        ]
+    },
     "common_mob_core_effect": {
         "condition": {
             "type": "origins:resource",
@@ -52297,6 +52405,26 @@
             "minecraft:skeleton",
             "minecraft:spider",
             "minecraft:creeper"
+        ]
+    },
+    "nether_mob_core_effect": {
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_current_core",
+            "comparison": "==",
+            "compare_to": 212055
+        },
+        "type": "mechorigins:mob_neutrality",
+        "entity_types": [
+            "minecraft:blaze",
+            "minecraft:ghast",
+            "minecraft:piglin",
+            "minecraft:piglin_brute",
+            "minecraft:hoglin",
+            "minecraft:zoglin",
+            "minecraft:zombified_piglin",
+            "minecraft:wither_skeleton",
+            "minecraft:magma_cube"
         ]
     }
 }

@@ -40,7 +40,7 @@ public class ModItems {
     public static Item SKELETON_CORE = registerItem("skeleton_core", new Item(new FabricItemSettings().maxCount(1)));
     public static Item SPIDER_CORE = registerItem("spider_core", new Item(new FabricItemSettings().maxCount(1)));
     public static Item CREEPER_CORE = registerItem("creeper_core", new Item(new FabricItemSettings().maxCount(1)));
-    public static Item ZOMBIEFIED_PIGLIN_CORE = registerItem("zombiefied_piglin_core", new Item(new FabricItemSettings().maxCount(1)));
+    public static Item ZOMBIFIED_PIGLIN_CORE = registerItem("zombified_piglin_core", new Item(new FabricItemSettings().maxCount(1)));
     public static Item WITHER_SKELETON_CORE = registerItem("wither_skeleton_core", new Item(new FabricItemSettings().maxCount(1)));
     public static Item MAGMA_CUBE_CORE = registerItem("magma_cube_core", new Item(new FabricItemSettings().maxCount(1)));
     public static Item HOGLIN_CORE = registerItem("hoglin_core", new Item(new FabricItemSettings().maxCount(1)));
@@ -115,7 +115,7 @@ public class ModItems {
         entries.add(SKELETON_CORE);
         entries.add(SPIDER_CORE);
         entries.add(CREEPER_CORE);
-        entries.add(ZOMBIEFIED_PIGLIN_CORE);
+        entries.add(ZOMBIFIED_PIGLIN_CORE);
         entries.add(WITHER_SKELETON_CORE);
         entries.add(MAGMA_CUBE_CORE);
         entries.add(HOGLIN_CORE);

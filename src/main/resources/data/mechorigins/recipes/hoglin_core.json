@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "LPL",
+    "PCP",
+    "LPL"
+  ],
+  "key": {
+    "L": {
+      "item": "minecraft:leather"
+    },
+    "P": {
+      "item": "minecraft:cooked_porkchop"
+    },
+    "C": {
+      "item": "mechorigins:base_core"
+    }
+  },
+  "result": {
+    "item": "mechorigins:hoglin_core",
+    "count": 1
+  }
+}

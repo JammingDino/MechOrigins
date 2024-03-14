@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "mechorigins:item/zombiefied_piglin_core"
-  }
-}

@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mechorigins:zombified_piglin_core"
+    },
+    {
+      "item": "mechorigins:wither_skeleton_core"
+    },
+    {
+      "item": "mechorigins:magma_cube_core"
+    },
+    {
+      "item": "mechorigins:hoglin_core"
+    },
+    {
+      "item": "mechorigins:piglin_core"
+    },
+    {
+      "item": "mechorigins:zoglin_core"
+    },
+    {
+      "item": "mechorigins:piglin_brute_core"
+    },
+    {
+      "item": "mechorigins:ghast_core"
+    },
+    {
+      "item": "mechorigins:blaze_core"
+    }
+  ],
+  "result": {
+    "item": "mechorigins:nether_mob_core"
+  }
+}

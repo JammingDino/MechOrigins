@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "L#L",
+    "#C#",
+    "L#L"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "L": {
+      "item": "minecraft:leather"
+    },
+    "C": {
+      "item": "mechorigins:base_core"
+    }
+  },
+  "result": {
+    "item": "mechorigins:zoglin_core",
+    "count": 1
+  }
+}

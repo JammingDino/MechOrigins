@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "###",
+    "#C#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:ghast_tear"
+    },
+    "C": {
+      "item": "mechorigins:base_core"
+    }
+  },
+  "result": {
+    "item": "mechorigins:ghast_core",
+    "count": 1
+  }
+}
