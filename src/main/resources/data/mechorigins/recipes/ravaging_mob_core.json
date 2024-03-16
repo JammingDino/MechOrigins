@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mechorigins:ravager_core"
+    },
+    {
+      "item": "mechorigins:iron_golem_core"
+    },
+    {
+      "item": "mechorigins:vex_core"
+    },
+    {
+      "item": "mechorigins:vindicator_core"
+    },
+    {
+      "item": "mechorigins:pillager_core"
+    },
+    {
+      "item": "mechorigins:evoker_core"
+    }
+  ],
+  "result": {
+    "item": "mechorigins:ravaging_mob_core"
+  }
+}
