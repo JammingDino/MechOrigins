@@ -52392,6 +52392,54 @@
             "minecraft:blaze"
         ]
     },
+    "enderman_core_effect": {
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_current_core",
+            "comparison": "==",
+            "compare_to": 212035
+        },
+        "type": "mechorigins:mob_neutrality",
+        "entity_types": [
+            "minecraft:enderman"
+        ]
+    },
+    "silverfish_core_effect": {
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_current_core",
+            "comparison": "==",
+            "compare_to": 212036
+        },
+        "type": "mechorigins:mob_neutrality",
+        "entity_types": [
+            "minecraft:silverfish"
+        ]
+    },
+    "endermite_core_effect": {
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_current_core",
+            "comparison": "==",
+            "compare_to": 212037
+        },
+        "type": "mechorigins:mob_neutrality",
+        "entity_types": [
+            "minecraft:endermite"
+        ]
+    },
+    "shulker_core_effect": {
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_current_core",
+            "comparison": "==",
+            "compare_to": 212038
+        },
+        "type": "mechorigins:mob_neutrality",
+        "entity_types": [
+            "minecraft:shulker"
+        ]
+    },
     "common_mob_core_effect": {
         "condition": {
             "type": "origins:resource",
@@ -52405,6 +52453,21 @@
             "minecraft:skeleton",
             "minecraft:spider",
             "minecraft:creeper"
+        ]
+    },
+    "end_mob_core_effect": {
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_current_core",
+            "comparison": "==",
+            "compare_to": 212054
+        },
+        "type": "mechorigins:mob_neutrality",
+        "entity_types": [
+            "minecraft:enderman",
+            "minecraft:endermite",
+            "minecraft:silverfish",
+            "minecraft:shulker"
         ]
     },
     "nether_mob_core_effect": {

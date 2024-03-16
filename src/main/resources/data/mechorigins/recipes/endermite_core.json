@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "###",
+    "#C#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:end_stone"
+    },
+    "C": {
+      "item": "mechorigins:base_core"
+    }
+  },
+  "result": {
+    "item": "mechorigins:endermite_core",
+    "count": 1
+  }
+}

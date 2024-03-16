@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "###",
+    "#C#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stone"
+    },
+    "C": {
+      "item": "mechorigins:base_core"
+    }
+  },
+  "result": {
+    "item": "mechorigins:silverfish_core",
+    "count": 1
+  }
+}

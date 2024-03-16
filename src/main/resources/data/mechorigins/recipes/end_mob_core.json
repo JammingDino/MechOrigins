@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mechorigins:shulker_core"
+    },
+    {
+      "item": "mechorigins:enderman_core"
+    },
+    {
+      "item": "mechorigins:endermite_core"
+    },
+    {
+      "item": "mechorigins:silverfish"
+    }
+  ],
+  "result": {
+    "item": "mechorigins:nether_mob_core"
+  }
+}

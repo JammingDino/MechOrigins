@@ -5,8 +5,7 @@
   "mixins": [
     "ActiveTargetGoalMixin",
     "MobEntityMixin",
-    "PiglinBrainMixin",
-    "PiglinBruteBrainMixin"
+    "PiglinBrainMixin"
   ],
   "injectors": {
     "defaultRequire": 1
