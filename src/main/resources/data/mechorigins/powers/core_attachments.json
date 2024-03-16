@@ -52440,6 +52440,78 @@
             "minecraft:shulker"
         ]
     },
+    "ravager_core_effect": {
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_current_core",
+            "comparison": "==",
+            "compare_to": 212039
+        },
+        "type": "mechorigins:mob_neutrality",
+        "entity_types": [
+            "minecraft:ravager"
+        ]
+    },
+    "iron_golem_core_effect": {
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_current_core",
+            "comparison": "==",
+            "compare_to": 212040
+        },
+        "type": "mechorigins:mob_neutrality",
+        "entity_types": [
+            "minecraft:iron_golem"
+        ]
+    },
+    "vex_core_effect": {
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_current_core",
+            "comparison": "==",
+            "compare_to": 212041
+        },
+        "type": "mechorigins:mob_neutrality",
+        "entity_types": [
+            "minecraft:vex"
+        ]
+    },
+    "vindicator_core_effect": {
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_current_core",
+            "comparison": "==",
+            "compare_to": 212042
+        },
+        "type": "mechorigins:mob_neutrality",
+        "entity_types": [
+            "minecraft:vindicator"
+        ]
+    },
+    "pillager_core_effect": {
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_current_core",
+            "comparison": "==",
+            "compare_to": 212043
+        },
+        "type": "mechorigins:mob_neutrality",
+        "entity_types": [
+            "minecraft:pillager"
+        ]
+    },
+    "evoker_core_effect": {
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_current_core",
+            "comparison": "==",
+            "compare_to": 212044
+        },
+        "type": "mechorigins:mob_neutrality",
+        "entity_types": [
+            "minecraft:evoker"
+        ]
+    },
     "common_mob_core_effect": {
         "condition": {
             "type": "origins:resource",
@@ -52488,6 +52560,23 @@
             "minecraft:zombified_piglin",
             "minecraft:wither_skeleton",
             "minecraft:magma_cube"
+        ]
+    },
+    "ravaging_mob_core_effect": {
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_current_core",
+            "comparison": "==",
+            "compare_to": 212056
+        },
+        "type": "mechorigins:mob_neutrality",
+        "entity_types": [
+            "minecraft:ravager",
+            "minecraft:iron_golem",
+            "minecraft:vex",
+            "minecraft:vindicator",
+            "minecraft:pillager",
+            "minecraft:evoker"
         ]
     }
 }

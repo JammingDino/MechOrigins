@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mech-origins.iml" filepath="$PROJECT_DIR$/.idea/modules/mech-origins.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/mech-origins.main.iml" filepath="$PROJECT_DIR$/.idea/modules/mech-origins.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/mech-origins.test.iml" filepath="$PROJECT_DIR$/.idea/modules/mech-origins.test.iml" />
     </modules>

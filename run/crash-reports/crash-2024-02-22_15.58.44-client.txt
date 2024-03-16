@@ -26,8 +26,8 @@ Caused by: java.lang.RuntimeException: Attempted to register ID ResourceKey[mine
 	at net.minecraft.registry.SimpleRegistry.add(SimpleRegistry.java:180)
 	at net.minecraft.registry.Registry.register(Registry.java:317)
 	at net.minecraft.registry.Registry.register(Registry.java:308)
-	at jammingdino.mechorigins.item.ModItems.registerItem(ModItems.java:91)
-	at jammingdino.mechorigins.item.ModItems.<clinit>(ModItems.java:25)
+	at jammingdino.mechorigins.common.registry.ModItems.registerItem(ModItems.java:91)
+	at jammingdino.mechorigins.common.registry.ModItems.<clinit>(ModItems.java:25)
 	... 9 more
 
 
