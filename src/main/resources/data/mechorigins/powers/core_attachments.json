@@ -52512,6 +52512,102 @@
             "minecraft:evoker"
         ]
     },
+    "stray_core_effect": {
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_current_core",
+            "comparison": "==",
+            "compare_to": 212045
+        },
+        "type": "mechorigins:mob_neutrality",
+        "entity_types": [
+            "minecraft:stray"
+        ]
+    },
+    "slime_core_effect": {
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_current_core",
+            "comparison": "==",
+            "compare_to": 212046
+        },
+        "type": "mechorigins:mob_neutrality",
+        "entity_types": [
+            "minecraft:slime"
+        ]
+    },
+    "husk_core_effect": {
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_current_core",
+            "comparison": "==",
+            "compare_to": 212047
+        },
+        "type": "mechorigins:mob_neutrality",
+        "entity_types": [
+            "minecraft:husk"
+        ]
+    },
+    "drowned_core_effect": {
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_current_core",
+            "comparison": "==",
+            "compare_to": 212048
+        },
+        "type": "mechorigins:mob_neutrality",
+        "entity_types": [
+            "minecraft:drowned"
+        ]
+    },
+    "cave_spider_core_effect": {
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_current_core",
+            "comparison": "==",
+            "compare_to": 212049
+        },
+        "type": "mechorigins:mob_neutrality",
+        "entity_types": [
+            "minecraft:cave_spider"
+        ]
+    },
+    "witch_core_effect": {
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_current_core",
+            "comparison": "==",
+            "compare_to": 212050
+        },
+        "type": "mechorigins:mob_neutrality",
+        "entity_types": [
+            "minecraft:witch"
+        ]
+    },
+    "guardian_core_effect": {
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_current_core",
+            "comparison": "==",
+            "compare_to": 212051
+        },
+        "type": "mechorigins:mob_neutrality",
+        "entity_types": [
+            "minecraft:guardian"
+        ]
+    },
+    "elder_guardian_core_effect": {
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_current_core",
+            "comparison": "==",
+            "compare_to": 212052
+        },
+        "type": "mechorigins:mob_neutrality",
+        "entity_types": [
+            "minecraft:elder_guardian"
+        ]
+    },
     "common_mob_core_effect": {
         "condition": {
             "type": "origins:resource",
@@ -52577,6 +52673,28 @@
             "minecraft:vindicator",
             "minecraft:pillager",
             "minecraft:evoker"
+        ]
+    },
+    "strange_core_effect": {
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_current_core",
+            "comparison": "==",
+            "compare_to": 212057
+        },
+        "type": "mechorigins:mob_neutrality",
+        "entity_types": [
+            "minecraft:stray",
+            "minecraft:slime",
+            "minecraft:husk",
+            "minecraft:drowned",
+            "minecraft:cave_spider",
+            "minecraft:witch",
+            "minecraft:guardian",
+            "minecraft:elder_guardian",
+            "minecraft:polar_bear",
+            "minecraft:pufferfish",
+            "minecraft:llama"
         ]
     }
 }

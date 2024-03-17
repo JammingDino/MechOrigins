@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mechorigins:stray_core"
+    },
+    {
+      "item": "mechorigins:slime_core"
+    },
+    {
+      "item": "mechorigins:husk_core"
+    },
+    {
+      "item": "mechorigins:drowned_core"
+    },
+    {
+      "item": "mechorigins:cave_spider_core"
+    },
+    {
+      "item": "mechorigins:witch_core"
+    },
+    {
+      "item": "mechorigins:guardian_core"
+    },
+    {
+      "item": "mechorigins:elder_guardian_core"
+    }
+  ],
+  "result": {
+    "item": "mechorigins:strange_mob_core"
+  }
+}
