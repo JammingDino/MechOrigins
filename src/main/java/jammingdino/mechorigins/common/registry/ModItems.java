@@ -67,11 +67,15 @@ public class ModItems {
     public static Item WITCH_CORE = registerItem("witch_core", new Item(new FabricItemSettings().maxCount(1)));
     public static Item GUARDIAN_CORE = registerItem("guardian_core", new Item(new FabricItemSettings().maxCount(1)));
     public static Item ELDER_GUARDIAN_CORE = registerItem("elder_guardian_core", new Item(new FabricItemSettings().maxCount(1)));
+    public static Item ENDER_DRAGON_CORE = registerItem("ender_dragon_core", new Item(new FabricItemSettings().maxCount(1)));
+    public static Item WITHER_CORE = registerItem("wither_core", new Item(new FabricItemSettings().maxCount(1)));
+    public static Item WARDEN_CORE = registerItem("warden_core", new Item(new FabricItemSettings().maxCount(1)));
     public static Item COMMON_MOB_CORE = registerItem("common_mob_core", new Item(new FabricItemSettings().maxCount(1)));
     public static Item END_MOB_CORE = registerItem("end_mob_core", new Item(new FabricItemSettings().maxCount(1)));
     public static Item NETHER_MOB_CORE = registerItem("nether_mob_core", new Item(new FabricItemSettings().maxCount(1)));
     public static Item RAVAGING_MOB_CORE = registerItem("ravaging_mob_core", new Item(new FabricItemSettings().maxCount(1)));
     public static Item STRANGE_MOB_CORE = registerItem("strange_mob_core", new Item(new FabricItemSettings().maxCount(1)));
+    public static Item BOSS_CORE = registerItem("boss_core", new Item(new FabricItemSettings().maxCount(1)));
     public static Item MOB_CORE = registerItem("mob_core", new MobCore(new FabricItemSettings().maxCount(1)));
     //All Arm Items
     public static Item AGRO_ARMS = registerItem("agro_arms", new Item(new FabricItemSettings().maxCount(1)));
@@ -142,11 +146,15 @@ public class ModItems {
         entries.add(WITCH_CORE);
         entries.add(GUARDIAN_CORE);
         entries.add(ELDER_GUARDIAN_CORE);
+        entries.add(ENDER_DRAGON_CORE);
+        entries.add(WITHER_CORE);
+        entries.add(WARDEN_CORE);
         entries.add(COMMON_MOB_CORE);
         entries.add(END_MOB_CORE);
         entries.add(NETHER_MOB_CORE);
         entries.add(RAVAGING_MOB_CORE);
         entries.add(STRANGE_MOB_CORE);
+        entries.add(BOSS_CORE);
         entries.add(MOB_CORE);
 
         entries.add(AGRO_ARMS);

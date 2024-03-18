@@ -1,0 +1,26 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"OOO",
+		"WBH",
+		"OOO"
+	],
+	"key": {
+		"O": {
+			"item": "minecraft:obsidian"
+		},
+		"W": {
+			"item": "minecraft:nether_star"
+		},
+		"B": {
+			"item": "mechorigins:base_core"
+		},
+		"H": {
+			"item": "minecraft:wither_skeleton_skull"
+		}
+	},
+	"result": {
+		"item": "mechorigins:wither_core",
+		"count": 1
+	}
+}

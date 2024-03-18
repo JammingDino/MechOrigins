@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "OOO",
+    "WBH",
+    "OOO"
+  ],
+  "key": {
+    "O": {
+      "item": "minecraft:obsidian"
+    },
+    "W": {
+      "item": "minecraft:elytra"
+    },
+    "B": {
+      "item": "mechorigins:base_core"
+    },
+    "H": {
+      "item": "minecraft:dragon_head"
+    }
+  },
+  "result": {
+    "item": "mechorigins:ender_dragon_core",
+    "count": 1
+  }
+}
