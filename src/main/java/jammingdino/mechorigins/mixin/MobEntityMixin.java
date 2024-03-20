@@ -2,6 +2,7 @@ package jammingdino.mechorigins.mixin;
 
 import io.github.apace100.apoli.component.PowerHolderComponent;
 import jammingdino.mechorigins.common.power.MobNeutralityPower;
+import jammingdino.mechorigins.common.power.PassiveMobPower;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.mob.MobEntity;
 import org.jetbrains.annotations.Nullable;

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mechorigins:common_mob_core"
+    },
+    {
+      "item": "mechorigins:nether_mob_core"
+    },
+    {
+      "item": "mechorigins:end_mob_core"
+    },
+    {
+      "item": "mechorigins:ravaging_mob_core"
+    },
+    {
+      "item": "mechorigins:strange_mob_core"
+    },
+    {
+      "item": "mechorigins:boss_core"
+    }
+  ],
+  "result": {
+    "item": "mechorigins:mob_core"
+  }
+}

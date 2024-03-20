@@ -37,8 +37,6 @@ public abstract class BrainMixin {
                     ci.cancel();
                 }
             });
-            System.out.println(entity);
-            System.out.println(entity.getType());
         }
     }
 }

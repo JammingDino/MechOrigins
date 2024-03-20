@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mechorigins:ender_dragon_core"
+    },
+    {
+      "item": "mechorigins:wither_core"
+    },
+    {
+      "item": "mechorigins:warden_core"
+    }
+  ],
+  "result": {
+    "item": "mechorigins:boss_core"
+  }
+}

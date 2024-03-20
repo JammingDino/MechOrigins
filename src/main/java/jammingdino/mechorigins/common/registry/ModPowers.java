@@ -15,8 +15,9 @@ import java.util.Collections;
 public class ModPowers {
 
     public static final PowerFactory<Power> MOB_NEUTRALITY = new PowerFactory<>(MechOrigins.id("mob_neutrality"), new SerializableData().add("entity_types", SerializableDataType.list(SerializableDataTypes.ENTITY_TYPE), Collections.emptyList()).add("inverted", SerializableDataTypes.BOOLEAN, false), data -> (type, entity) -> new MobNeutralityPower(type, entity, data.get("entity_types"), data.getBoolean("inverted"))).allowCondition();
-
+    public static final PowerFactory<Power> PASSIVE_MOB = new PowerFactory<>(MechOrigins.id("passive_mob"), new SerializableData().add("entity_types", SerializableDataType.list(SerializableDataTypes.ENTITY_TYPE), Collections.emptyList()).add("inverted", SerializableDataTypes.BOOLEAN, false), data -> (type, entity) -> new MobNeutralityPower(type, entity, data.get("entity_types"), data.getBoolean("inverted"))).allowCondition();
     public static void RegisterModPowers() {
         Registry.register(ApoliRegistries.POWER_FACTORY, MOB_NEUTRALITY.getSerializerId(), MOB_NEUTRALITY);
+        Registry.register(ApoliRegistries.POWER_FACTORY, PASSIVE_MOB.getSerializerId(), PASSIVE_MOB);
     }
 }
