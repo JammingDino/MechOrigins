@@ -2,6 +2,7 @@ package jammingdino.mechorigins.mixin;
 
 import io.github.apace100.apoli.component.PowerHolderComponent;
 import jammingdino.mechorigins.common.power.MobNeutralityPower;
+import jammingdino.mechorigins.common.power.PassiveMobPower;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.ai.brain.Brain;
 import net.minecraft.entity.ai.brain.Memory;
@@ -37,6 +38,9 @@ public abstract class BrainMixin {
                     ci.cancel();
                 }
             });
+            if (!PowerHolderComponent.getPowers(memory.get().getValue(), PassiveMobPower.class).isEmpty()) {
+                ci.cancel();
+            }
         }
     }
 }

@@ -61594,10 +61594,7 @@
             "comparison": "==",
             "compare_to": 212058
         },
-        "type": "mechorigins:passive_mob",
-        "entity_types": [
-            "minecraft:spider"
-        ]
+        "type": "mechorigins:passive_mob"
     },
     "ender_dragon_core_effect": {
         "condition": {

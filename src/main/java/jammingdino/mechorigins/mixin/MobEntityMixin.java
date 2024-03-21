@@ -21,5 +21,8 @@ public abstract class MobEntityMixin {
                 callback.cancel();
             }
         });
+        if (!PowerHolderComponent.getPowers(target, PassiveMobPower.class).isEmpty()) {
+            callback.cancel();
+        }
     }
 }
