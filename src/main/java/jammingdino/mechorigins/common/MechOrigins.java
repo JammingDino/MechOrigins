@@ -3,6 +3,7 @@ package jammingdino.mechorigins.common;
 import jammingdino.mechorigins.common.registry.ModPowers;
 import jammingdino.mechorigins.common.registry.ModItems;
 import jammingdino.mechorigins.common.registry.ModSounds;
+import jammingdino.mechorigins.common.registry.TrinketSlots;
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.util.Identifier;
 import org.slf4j.Logger;
@@ -20,6 +21,7 @@ public class MechOrigins implements ModInitializer {
 		ModItems.registerModItems();
 		ModSounds.registerSounds();
 		ModPowers.RegisterModPowers();
+		TrinketSlots.registerTrinketSlots();
 
 	}
 

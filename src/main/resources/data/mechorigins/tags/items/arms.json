@@ -1,0 +1,16 @@
+{
+  "replace" : false,
+  "values": [
+    "mechorigins:agro_arms",
+    "mechorigins:airstrike_arms",
+    "mechorigins:armor_arms",
+    "mechorigins:bow_arms",
+    "mechorigins:drill_arms",
+    "mechorigins:fin_arms",
+    "mechorigins:farmer_arms",
+    "mechorigins:fire_arms",
+    "mechorigins:fireball_arms",
+    "mechorigins:fling_arms",
+    "mechorigins:base_arms"
+  ]
+}

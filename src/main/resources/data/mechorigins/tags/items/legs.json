@@ -1,0 +1,16 @@
+{
+  "replace" : false,
+  "values": [
+    "mechorigins:jump_legs",
+    "mechorigins:wheel_legs",
+    "mechorigins:acceleration_legs",
+    "mechorigins:armor_legs",
+    "mechorigins:athletic_legs",
+    "mechorigins:climbing_legs",
+    "mechorigins:flipper_legs",
+    "mechorigins:jetpack_legs",
+    "mechorigins:lava_walk_legs",
+    "mechorigins:water_walk_legs",
+    "mechorigins:base_legs"
+  ]
+}
