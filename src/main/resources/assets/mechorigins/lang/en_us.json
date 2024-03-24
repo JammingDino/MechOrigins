@@ -78,5 +78,9 @@
 
   "sounds.mechorigins.jetpack_start": "Jetpack Starts",
   "sounds.mechorigins.jetpack_loop": "Jetpack Starts",
-  "sounds.mechorigins.jetpack_end": "Jetpack Starts"
+  "sounds.mechorigins.jetpack_end": "Jetpack Starts",
+
+  "trinkets.slots.chest.part": "Part",
+  "trinkets.slots.legs.part": "Part",
+  "trinkets.slots.feet.part": "Part"
 }
