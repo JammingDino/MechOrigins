@@ -7,7 +7,6 @@ import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;
-import net.minecraft.server.command.CommandManager;
 import net.minecraft.text.Text;
 import net.minecraft.world.World;
 import org.spongepowered.asm.mixin.Mixin;
@@ -18,7 +17,6 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Objects;
 
 @Mixin(PlayerEntity.class)
 public abstract class PlayerEntityTickMixin extends LivingEntity{
@@ -154,8 +152,7 @@ public abstract class PlayerEntityTickMixin extends LivingEntity{
             }
             if (oldArms != currentArms) {
                 if (this.getServer() != null) {
-                    //this.getServer().getCommandManager().executeWithPrefix(this.getServer().getCommandSource(), "resource set @p mechorigins:arm_attachments_current_arms " + Integer.toString(currentArms));
-                    int command = this.getServer().getCommandManager().execute(this.getServer().getCommandManager().getDispatcher().parse("resource set @p mechorigins:arm_attachments_current_arms " + Integer.toString(currentArms), this.getServer().getCommandSource()), "resource set @p mechorigins:arm_attachments_current_arms " + Integer.toString(currentArms));
+                    this.getServer().getCommandManager().execute(this.getServer().getCommandManager().getDispatcher().parse("resource set @p mechorigins:arm_attachments_current_arms " + Integer.toString(currentArms), this.getServer().getCommandSource()), "resource set @p mechorigins:arm_attachments_current_arms " + Integer.toString(currentArms));
                 }
             }
             if (oldLegs != currentLegs) {

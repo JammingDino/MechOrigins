@@ -7,7 +7,6 @@
     "BrainMixin",
     "PlayerEntityTickMixin",
     "MobEntityMixin",
-    "PiglinBrainMixin",
     "WardenEntityMixin"
   ],
   "injectors": {
