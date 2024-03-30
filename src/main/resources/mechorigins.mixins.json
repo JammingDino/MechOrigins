@@ -9,7 +9,8 @@
     "LivingEntityMixin",
     "MobEntityMixin",
     "PlayerEntityTickMixin",
-    "WardenEntityMixin"
+    "WardenEntityMixin",
+    "playermodification.EntityMixin"
   ],
   "injectors": {
     "defaultRequire": 1

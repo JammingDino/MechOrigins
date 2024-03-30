@@ -1,5 +1,6 @@
 package jammingdino.mechorigins.mixin;
 
+import jammingdino.mechorigins.client.ClientVariables;
 import jammingdino.mechorigins.common.registry.ModTags;
 import jammingdino.mechorigins.common.registry.TrinketSlots;
 import net.minecraft.entity.EntityType;
@@ -20,10 +21,6 @@ import java.util.Map;
 
 @Mixin(PlayerEntity.class)
 public abstract class PlayerEntityTickMixin extends LivingEntity{
-
-    static {
-        Map<String, Integer> legsDictionary = new HashMap<String, Integer>();
-    }
     @Shadow public abstract Text getDisplayName();
 
     protected PlayerEntityTickMixin(EntityType<? extends LivingEntity> entityType, World world) {
@@ -148,16 +145,19 @@ public abstract class PlayerEntityTickMixin extends LivingEntity{
             if (oldCore != currentCore) {
                 if (this.getServer() != null) {
                     this.getServer().getCommandManager().executeWithPrefix(this.getServer().getCommandSource(), "resource set @p mechorigins:core_attachments_current_core " + Integer.toString(currentCore));
+                    ClientVariables.currentCore = currentCore;
                 }
             }
             if (oldArms != currentArms) {
                 if (this.getServer() != null) {
                     this.getServer().getCommandManager().execute(this.getServer().getCommandManager().getDispatcher().parse("resource set @p mechorigins:arm_attachments_current_arms " + Integer.toString(currentArms), this.getServer().getCommandSource()), "resource set @p mechorigins:arm_attachments_current_arms " + Integer.toString(currentArms));
+                    ClientVariables.currentArms = currentArms;
                 }
             }
             if (oldLegs != currentLegs) {
                 if (this.getServer() != null) {
                     this.getServer().getCommandManager().executeWithPrefix(this.getServer().getCommandSource(), "resource set @p mechorigins:leg_attachments_current_legs " + Integer.toString(currentLegs));
+                    ClientVariables.currentLegs = currentLegs;
                 }
             }
             oldCore = currentCore;
