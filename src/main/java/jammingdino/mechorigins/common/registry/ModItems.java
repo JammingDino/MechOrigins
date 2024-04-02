@@ -2,6 +2,7 @@ package jammingdino.mechorigins.common.registry;
 
 import jammingdino.mechorigins.common.MechOrigins;
 import jammingdino.mechorigins.common.item.MobCore;
+import jammingdino.mechorigins.common.item.WheelLegs;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -14,7 +15,7 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     //All Leg Items
     public static Item JUMP_LEGS = registerItem("jump_legs", new Item(new FabricItemSettings().maxCount(1)));
-    public static Item WHEEL_LEGS = registerItem("wheel_legs", new Item(new FabricItemSettings().maxCount(1)));
+    public static Item WHEEL_LEGS = registerItem("wheel_legs", new WheelLegs(new FabricItemSettings().maxCount(1)));
     public static Item ACCELERATION_LEGS = registerItem("acceleration_legs", new Item(new FabricItemSettings().maxCount(1)));
     public static Item ARMOR_LEGS = registerItem("armor_legs", new Item(new FabricItemSettings().maxCount(1)));
     public static Item ATHLETIC_LEGS = registerItem("athletic_legs", new Item(new FabricItemSettings().maxCount(1)));
